@@ -1,0 +1,4730 @@
+[
+  {
+    "Base form": "abear",
+    "Past simple": "abore",
+    "Past participle": "aborn, aborne",
+    "Popular": false
+  },
+  {
+    "Base form": "abide",
+    "Past simple": "abode, abided",
+    "Past participle": "abode, abided, abidden",
+    "Popular": true
+  },
+  {
+    "Base form": "abite",
+    "Past simple": "abit",
+    "Past participle": "abitten",
+    "Popular": false
+  },
+  {
+    "Base form": "accurse",
+    "Past simple": "accursed",
+    "Past participle": "accursed, accurst",
+    "Popular": false
+  },
+  {
+    "Base form": "ache",
+    "Past simple": "ached, oke",
+    "Past participle": "ached, aken",
+    "Popular": false
+  },
+  {
+    "Base form": "acknow",
+    "Past simple": "acknew",
+    "Past participle": "acknown",
+    "Popular": false
+  },
+  {
+    "Base form": "adraw",
+    "Past simple": "adrew",
+    "Past participle": "adrawn",
+    "Popular": false
+  },
+  {
+    "Base form": "afare",
+    "Past simple": "afared, afore",
+    "Past participle": "afared, afaren",
+    "Popular": false
+  },
+  {
+    "Base form": "aftersee",
+    "Past simple": "aftersaw",
+    "Past participle": "afterseen",
+    "Popular": false
+  },
+  {
+    "Base form": "aknow",
+    "Past simple": "aknew",
+    "Past participle": "aknown",
+    "Popular": false
+  },
+  {
+    "Base form": "arise",
+    "Past simple": "arose",
+    "Past participle": "arisen",
+    "Popular": true
+  },
+  {
+    "Base form": "arize",
+    "Past simple": "aroze",
+    "Past participle": "arizen",
+    "Popular": false
+  },
+  {
+    "Base form": "atgo",
+    "Past simple": "atwent",
+    "Past participle": "atgone",
+    "Popular": false
+  },
+  {
+    "Base form": "atride",
+    "Past simple": "atrode",
+    "Past participle": "atridden",
+    "Popular": false
+  },
+  {
+    "Base form": "atrin",
+    "Past simple": "atran",
+    "Past participle": "atrun",
+    "Popular": false
+  },
+  {
+    "Base form": "atrine",
+    "Past simple": "atrined, atrone",
+    "Past participle": "atrined, atrinnen",
+    "Popular": false
+  },
+  {
+    "Base form": "atsake",
+    "Past simple": "atsook",
+    "Past participle": "atsaken",
+    "Popular": false
+  },
+  {
+    "Base form": "atshake",
+    "Past simple": "atshook",
+    "Past participle": "atshaken",
+    "Popular": false
+  },
+  {
+    "Base form": "atsit",
+    "Past simple": "atsat, atseet",
+    "Past participle": "atsat, atsitten",
+    "Popular": false
+  },
+  {
+    "Base form": "atslip",
+    "Past simple": "atslipped, atslope",
+    "Past participle": "atslipped, atslopen",
+    "Popular": false
+  },
+  {
+    "Base form": "awake",
+    "Past simple": "awoke",
+    "Past participle": "awoken",
+    "Popular": true
+  },
+  {
+    "Base form": "backbite",
+    "Past simple": "backbitten",
+    "Past participle": "backbitten",
+    "Popular": true
+  },
+  {
+    "Base form": "backslide",
+    "Past simple": "backslid",
+    "Past participle": "backslid",
+    "Popular": true
+  },
+  {
+    "Base form": "be",
+    "Past simple": "was, were",
+    "Past participle": "been",
+    "Popular": true
+  },
+  {
+    "Base form": "bear",
+    "Past simple": "bore",
+    "Past participle": "borne, born",
+    "Popular": true
+  },
+  {
+    "Base form": "beat",
+    "Past simple": "beat",
+    "Past participle": "beaten",
+    "Popular": true
+  },
+  {
+    "Base form": "become",
+    "Past simple": "became",
+    "Past participle": "become",
+    "Popular": true
+  },
+  {
+    "Base form": "bede",
+    "Past simple": "bade",
+    "Past participle": "bode, boden",
+    "Popular": false
+  },
+  {
+    "Base form": "bedelve",
+    "Past simple": "bedelved, bedolve",
+    "Past participle": "bedelved, bedolven",
+    "Popular": false
+  },
+  {
+    "Base form": "bedo",
+    "Past simple": "bedid",
+    "Past participle": "bedone",
+    "Popular": false
+  },
+  {
+    "Base form": "bedraw",
+    "Past simple": "bedrew",
+    "Past participle": "bedrawn",
+    "Popular": false
+  },
+  {
+    "Base form": "bedrink",
+    "Past simple": "bedrank",
+    "Past participle": "bedrink",
+    "Popular": false
+  },
+  {
+    "Base form": "bedrite",
+    "Past simple": "bedrote, bedrit",
+    "Past participle": "bedritten",
+    "Popular": false
+  },
+  {
+    "Base form": "bedrive",
+    "Past simple": "bedrove",
+    "Past participle": "bedriven",
+    "Popular": false
+  },
+  {
+    "Base form": "befall",
+    "Past simple": "befell",
+    "Past participle": "befallen",
+    "Popular": true
+  },
+  {
+    "Base form": "beflay",
+    "Past simple": "beflayed",
+    "Past participle": "beflayed, beflain",
+    "Popular": false
+  },
+  {
+    "Base form": "befly",
+    "Past simple": "beflew",
+    "Past participle": "beflown",
+    "Popular": false
+  },
+  {
+    "Base form": "befold",
+    "Past simple": "befolded, befeld",
+    "Past participle": "befolded, befolden",
+    "Popular": false
+  },
+  {
+    "Base form": "beget",
+    "Past simple": "begot, begat",
+    "Past participle": "begotten",
+    "Popular": true
+  },
+  {
+    "Base form": "begin",
+    "Past simple": "began",
+    "Past participle": "begun",
+    "Popular": true
+  },
+  {
+    "Base form": "begird",
+    "Past simple": "begirt",
+    "Past participle": "begirt",
+    "Popular": true
+  },
+  {
+    "Base form": "begive",
+    "Past simple": "begave",
+    "Past participle": "begiven",
+    "Popular": false
+  },
+  {
+    "Base form": "bego",
+    "Past simple": "bewent",
+    "Past participle": "begone",
+    "Popular": false
+  },
+  {
+    "Base form": "behelp",
+    "Past simple": "behelped, beholp",
+    "Past participle": "behelped",
+    "Popular": false
+  },
+  {
+    "Base form": "behew",
+    "Past simple": "behewed",
+    "Past participle": "behewn",
+    "Popular": false
+  },
+  {
+    "Base form": "behold",
+    "Past simple": "beheld",
+    "Past participle": "beheld, beholden",
+    "Popular": true
+  },
+  {
+    "Base form": "beknow",
+    "Past simple": "beknew",
+    "Past participle": "beknown",
+    "Popular": false
+  },
+  {
+    "Base form": "belawgive",
+    "Past simple": "belawgave",
+    "Past participle": "belawgiven",
+    "Popular": false
+  },
+  {
+    "Base form": "belimp",
+    "Past simple": "belamp, belimped",
+    "Past participle": "belump, belimped",
+    "Popular": false
+  },
+  {
+    "Base form": "belive",
+    "Past simple": "belove",
+    "Past participle": "beliven",
+    "Popular": true
+  },
+  {
+    "Base form": "bename",
+    "Past simple": "benamed",
+    "Past participle": "benamed, benempt",
+    "Popular": true
+  },
+  {
+    "Base form": "bend",
+    "Past simple": "bent",
+    "Past participle": "bent, bended",
+    "Popular": true
+  },
+  {
+    "Base form": "benim",
+    "Past simple": "benam, benimmed",
+    "Past participle": "benomen, benome, benimmed",
+    "Popular": false
+  },
+  {
+    "Base form": "bequeath",
+    "Past simple": "bequeathed, bequoth",
+    "Past participle": "bequeathed, bequethen",
+    "Popular": false
+  },
+  {
+    "Base form": "bereave ",
+    "Past simple": "bereft, bereaved",
+    "Past participle": "bereft, bereaved",
+    "Popular": true
+  },
+  {
+    "Base form": "beride",
+    "Past simple": "berode",
+    "Past participle": "beridden",
+    "Popular": false
+  },
+  {
+    "Base form": "besee",
+    "Past simple": "besaw",
+    "Past participle": "beseen",
+    "Popular": false
+  },
+  {
+    "Base form": "beseech",
+    "Past simple": "beseeched, besought",
+    "Past participle": "beseeched, besought",
+    "Popular": true
+  },
+  {
+    "Base form": "beset",
+    "Past simple": "beset",
+    "Past participle": "beset",
+    "Popular": true
+  },
+  {
+    "Base form": "beshake",
+    "Past simple": "beshook",
+    "Past participle": "beshaken",
+    "Popular": false
+  },
+  {
+    "Base form": "beshear",
+    "Past simple": "beshore, besheared",
+    "Past participle": "beshorn, besheared",
+    "Popular": false
+  },
+  {
+    "Base form": "beshite",
+    "Past simple": "beshit, beshote, beshat",
+    "Past participle": "beshitten",
+    "Popular": false
+  },
+  {
+    "Base form": "besing",
+    "Past simple": "besang",
+    "Past participle": "besung",
+    "Popular": false
+  },
+  {
+    "Base form": "besit",
+    "Past simple": "besat",
+    "Past participle": "besat, besitten",
+    "Popular": false
+  },
+  {
+    "Base form": "bespeak",
+    "Past simple": "bespoke, bespake",
+    "Past participle": "bespoken, bespoke",
+    "Popular": true
+  },
+  {
+    "Base form": "bespit",
+    "Past simple": "bespat",
+    "Past participle": "bespit, bespitted",
+    "Popular": true
+  },
+  {
+    "Base form": "besteal",
+    "Past simple": "bestole",
+    "Past participle": "bestolen",
+    "Popular": false
+  },
+  {
+    "Base form": "bestep",
+    "Past simple": "bestepped, bestept, bestope",
+    "Past participle": "bestepped, bestept, bestopen",
+    "Popular": false
+  },
+  {
+    "Base form": "bestrew",
+    "Past simple": "bestrewed",
+    "Past participle": "bestrewn",
+    "Popular": false
+  },
+  {
+    "Base form": "bestride",
+    "Past simple": "bestrode",
+    "Past participle": "bestrode, bestridden, bestrid",
+    "Popular": true
+  },
+  {
+    "Base form": "beswike",
+    "Past simple": "beswoke",
+    "Past participle": "beswicken",
+    "Popular": false
+  },
+  {
+    "Base form": "beswink",
+    "Past simple": "beswank",
+    "Past participle": "beswunk, beswunken",
+    "Popular": false
+  },
+  {
+    "Base form": "bet",
+    "Past simple": "bet",
+    "Past participle": "bet",
+    "Popular": true
+  },
+  {
+    "Base form": "betake",
+    "Past simple": "betook",
+    "Past participle": "betaken",
+    "Popular": true
+  },
+  {
+    "Base form": "betee",
+    "Past simple": "beteed, betow",
+    "Past participle": "beteed, betown",
+    "Popular": false
+  },
+  {
+    "Base form": "bethrow",
+    "Past simple": "bethrew",
+    "Past participle": "bethrown",
+    "Popular": false
+  },
+  {
+    "Base form": "betread",
+    "Past simple": "betrod",
+    "Past participle": "betrodden",
+    "Popular": true
+  },
+  {
+    "Base form": "bewrite",
+    "Past simple": "bewrote",
+    "Past participle": "bewritten",
+    "Popular": false
+  },
+  {
+    "Base form": "beyelp",
+    "Past simple": "beyelped, beyolp",
+    "Past participle": "beyelped, beyolpen",
+    "Popular": false
+  },
+  {
+    "Base form": "bid",
+    "Past simple": "bid, bade",
+    "Past participle": "bid, bidden",
+    "Popular": true
+  },
+  {
+    "Base form": "bide",
+    "Past simple": "bode, bided",
+    "Past participle": "bided, bidden",
+    "Popular": false
+  },
+  {
+    "Base form": "bind",
+    "Past simple": "bound",
+    "Past participle": "bound, bounden",
+    "Popular": true
+  },
+  {
+    "Base form": "bite",
+    "Past simple": "bit",
+    "Past participle": "bitten",
+    "Popular": true
+  },
+  {
+    "Base form": "bleed",
+    "Past simple": "bled",
+    "Past participle": "bled",
+    "Popular": true
+  },
+  {
+    "Base form": "bless",
+    "Past simple": "blessed",
+    "Past participle": "blessed, blest",
+    "Popular": true
+  },
+  {
+    "Base form": "blike",
+    "Past simple": "bliked, bloke",
+    "Past participle": "bliked, blicken",
+    "Popular": false
+  },
+  {
+    "Base form": "blin",
+    "Past simple": "blinned, blan",
+    "Past participle": "blinned, blun",
+    "Popular": false
+  },
+  {
+    "Base form": "blive",
+    "Past simple": "blove",
+    "Past participle": "bliven",
+    "Popular": false
+  },
+  {
+    "Base form": "blow",
+    "Past simple": "blew",
+    "Past participle": "blown",
+    "Popular": true
+  },
+  {
+    "Base form": "braid",
+    "Past simple": "braided",
+    "Past participle": "braided, browden",
+    "Popular": false
+  },
+  {
+    "Base form": "break",
+    "Past simple": "broke",
+    "Past participle": "broken",
+    "Popular": true
+  },
+  {
+    "Base form": "break-up",
+    "Past simple": "broke-up",
+    "Past participle": "broken-up",
+    "Popular": false
+  },
+  {
+    "Base form": "breed",
+    "Past simple": "bred",
+    "Past participle": "bred",
+    "Popular": true
+  },
+  {
+    "Base form": "brow-beat",
+    "Past simple": "brow-beat",
+    "Past participle": "brow-beaten",
+    "Popular": false
+  },
+  {
+    "Base form": "bring",
+    "Past simple": "brought",
+    "Past participle": "brought",
+    "Popular": true
+  },
+  {
+    "Base form": "broadcast",
+    "Past simple": "broadcast",
+    "Past participle": "broadcast",
+    "Popular": true
+  },
+  {
+    "Base form": "browbeat",
+    "Past simple": "browbeat",
+    "Past participle": "browbeaten",
+    "Popular": false
+  },
+  {
+    "Base form": "build",
+    "Past simple": "built",
+    "Past participle": "built",
+    "Popular": true
+  },
+  {
+    "Base form": "burn",
+    "Past simple": "burnt, burned",
+    "Past participle": "burnt, burned",
+    "Popular": true
+  },
+  {
+    "Base form": "burst",
+    "Past simple": "burst, brast",
+    "Past participle": "burst, bursten",
+    "Popular": true
+  },
+  {
+    "Base form": "buy",
+    "Past simple": "bought",
+    "Past participle": "bought, boughten",
+    "Popular": true
+  },
+  {
+    "Base form": "can",
+    "Past simple": "could",
+    "Past participle": "could",
+    "Popular": true
+  },
+  {
+    "Base form": "caretake",
+    "Past simple": "caretook",
+    "Past participle": "caretaken",
+    "Popular": false
+  },
+  {
+    "Base form": "carve",
+    "Past simple": "carved, corve",
+    "Past participle": "corven, carved, carven",
+    "Popular": false
+  },
+  {
+    "Base form": "cast",
+    "Past simple": "cast",
+    "Past participle": "cast",
+    "Popular": true
+  },
+  {
+    "Base form": "catch",
+    "Past simple": "caught",
+    "Past participle": "caught",
+    "Popular": true
+  },
+  {
+    "Base form": "chide",
+    "Past simple": "chid, chided, chode",
+    "Past participle": "chid, chided, chidden",
+    "Popular": true
+  },
+  {
+    "Base form": "choose",
+    "Past simple": "chose",
+    "Past participle": "chosen",
+    "Popular": true
+  },
+  {
+    "Base form": "cling",
+    "Past simple": "clung",
+    "Past participle": "clung",
+    "Popular": true
+  },
+  {
+    "Base form": "cleave",
+    "Past simple": "clove, cleft, cleaved",
+    "Past participle": "cloven, cleft, cleaved",
+    "Popular": true
+  },
+  {
+    "Base form": "clepe",
+    "Past simple": "cleped, clepen, clept",
+    "Past participle": "cleped, clept, clepen, yclept",
+    "Popular": false
+  },
+  {
+    "Base form": "cling",
+    "Past simple": "clung",
+    "Past participle": "clung",
+    "Popular": true
+  },
+  {
+    "Base form": "clop",
+    "Past simple": "clopped",
+    "Past participle": "clopped",
+    "Popular": false
+  },
+  {
+    "Base form": "clothe",
+    "Past simple": "clad, clothed",
+    "Past participle": "clad, clothed",
+    "Popular": true
+  },
+  {
+    "Base form": "cludge",
+    "Past simple": "cludged",
+    "Past participle": "cludging",
+    "Popular": false
+  },
+  {
+    "Base form": "co-write",
+    "Past simple": "co-wrote",
+    "Past participle": "co-written",
+    "Popular": false
+  },
+  {
+    "Base form": "come",
+    "Past simple": "came",
+    "Past participle": "come, comen",
+    "Popular": true
+  },
+  {
+    "Base form": "cost",
+    "Past simple": "cost",
+    "Past participle": "cost",
+    "Popular": true
+  },
+  {
+    "Base form": "copywrite",
+    "Past simple": "copywrote",
+    "Past participle": "copywritten",
+    "Popular": true
+  },
+  {
+    "Base form": "counterattract",
+    "Past simple": "counterattracted",
+    "Past participle": "counterattracted",
+    "Popular": false
+  },
+  {
+    "Base form": "counterdraw",
+    "Past simple": "counterdrew",
+    "Past participle": "counterdraw",
+    "Popular": false
+  },
+  {
+    "Base form": "countersing",
+    "Past simple": "countersang",
+    "Past participle": "countersung",
+    "Popular": false
+  },
+  {
+    "Base form": "countersink",
+    "Past simple": "countersank",
+    "Past participle": "countersunk",
+    "Popular": true
+  },
+  {
+    "Base form": "cowrite",
+    "Past simple": "cowrote",
+    "Past participle": "cowritten",
+    "Popular": true
+  },
+  {
+    "Base form": "creep",
+    "Past simple": "crept, creeped, crope",
+    "Past participle": "crept, creeped, cropen",
+    "Popular": true
+  },
+  {
+    "Base form": "crossbite",
+    "Past simple": "crossbit",
+    "Past participle": "crossbitten",
+    "Popular": false
+  },
+  {
+    "Base form": "crow",
+    "Past simple": "crowed, crew",
+    "Past participle": "crowed",
+    "Popular": true
+  },
+  {
+    "Base form": "cut",
+    "Past simple": "cut",
+    "Past participle": "cut",
+    "Popular": true
+  },
+  {
+    "Base form": "dare",
+    "Past simple": "durst, dared",
+    "Past participle": "dared",
+    "Popular": true
+  },
+  {
+    "Base form": "de",
+    "Past simple": "did",
+    "Past participle": "dyun",
+    "Popular": false
+  },
+  {
+    "Base form": "deal",
+    "Past simple": "dealt",
+    "Past participle": "dealt",
+    "Popular": true
+  },
+  {
+    "Base form": "deep-freeze",
+    "Past simple": "deep-froze, deep-freezed",
+    "Past participle": "deep-frozen, deep-freezed",
+    "Popular": false
+  },
+  {
+    "Base form": "delphie",
+    "Past simple": "delphied",
+    "Past participle": false,
+    "Popular": false
+  },
+  {
+    "Base form": "delve",
+    "Past simple": "delved, dalf",
+    "Past participle": "delved, dolven",
+    "Popular": false
+  },
+  {
+    "Base form": "depaint",
+    "Past simple": "depainted",
+    "Past participle": "depainted, depainten",
+    "Popular": false
+  },
+  {
+    "Base form": "dig",
+    "Past simple": "dug",
+    "Past participle": "dug",
+    "Popular": true
+  },
+  {
+    "Base form": "disbecome",
+    "Past simple": "disbecame",
+    "Past participle": "disbecome",
+    "Popular": false
+  },
+  {
+    "Base form": "disprove",
+    "Past simple": "disproved",
+    "Past participle": "disproved, disproven",
+    "Popular": false
+  },
+  {
+    "Base form": "dive",
+    "Past simple": "dived",
+    "Past participle": "dived, dove",
+    "Popular": true
+  },
+  {
+    "Base form": "do",
+    "Past simple": "did",
+    "Past participle": "done",
+    "Popular": true
+  },
+  {
+    "Base form": "downbear",
+    "Past simple": "downbore",
+    "Past participle": "downborne",
+    "Popular": false
+  },
+  {
+    "Base form": "downcome",
+    "Past simple": "downcame",
+    "Past participle": "downcome",
+    "Popular": false
+  },
+  {
+    "Base form": "downdraw",
+    "Past simple": "downdrew",
+    "Past participle": "downdrawn",
+    "Popular": false
+  },
+  {
+    "Base form": "downfall",
+    "Past simple": "downfell",
+    "Past participle": "downfallen",
+    "Popular": false
+  },
+  {
+    "Base form": "downtrod",
+    "Past simple": "downtrod",
+    "Past participle": "downtrodden",
+    "Popular": false
+  },
+  {
+    "Base form": "draw",
+    "Past simple": "drew",
+    "Past participle": "drawn",
+    "Popular": true
+  },
+  {
+    "Base form": "dream",
+    "Past simple": "dreamt, dreamed",
+    "Past participle": "dreamt, dreamed",
+    "Popular": true
+  },
+  {
+    "Base form": "dress",
+    "Past simple": "dressed",
+    "Past participle": "dressed, drest",
+    "Popular": true
+  },
+  {
+    "Base form": "drinck",
+    "Past simple": "dranck",
+    "Past participle": "drunck",
+    "Popular": false
+  },
+  {
+    "Base form": "drink",
+    "Past simple": "drank, drunk, drinked",
+    "Past participle": "drunk, drinked",
+    "Popular": true
+  },
+  {
+    "Base form": "drite",
+    "Past simple": "drate",
+    "Past participle": "dritten",
+    "Popular": false
+  },
+  {
+    "Base form": "drive",
+    "Past simple": "drove, drave",
+    "Past participle": "driven",
+    "Popular": true
+  },
+  {
+    "Base form": "dwell",
+    "Past simple": "dwelt",
+    "Past participle": "dwelt, dwelled",
+    "Popular": true
+  },
+  {
+    "Base form": "eat",
+    "Past simple": "ate, et",
+    "Past participle": "eaten",
+    "Popular": true
+  },
+  {
+    "Base form": "enblow",
+    "Past simple": "enblew",
+    "Past participle": "enblown",
+    "Popular": false
+  },
+  {
+    "Base form": "enfreeze",
+    "Past simple": "enfroze",
+    "Past participle": "enfrozen",
+    "Popular": false
+  },
+  {
+    "Base form": "entertake",
+    "Past simple": "entertook",
+    "Past participle": "entertaken",
+    "Popular": false
+  },
+  {
+    "Base form": "enwrite",
+    "Past simple": "enwrote",
+    "Past participle": "enwritten",
+    "Popular": false
+  },
+  {
+    "Base form": "equip",
+    "Past simple": "equipped",
+    "Past participle": "equipped, equipt",
+    "Popular": false
+  },
+  {
+    "Base form": "falchion",
+    "Past simple": "falchioned",
+    "Past participle": "falchioned",
+    "Popular": false
+  },
+  {
+    "Base form": "fall",
+    "Past simple": "fell, felled",
+    "Past participle": "fallen, felled",
+    "Popular": true
+  },
+  {
+    "Base form": "fare",
+    "Past simple": "fared, fore",
+    "Past participle": "fared, faren",
+    "Popular": false
+  },
+  {
+    "Base form": "farsee",
+    "Past simple": "farsaw",
+    "Past participle": "farseen",
+    "Popular": false
+  },
+  {
+    "Base form": "farspeak",
+    "Past simple": "farspoke",
+    "Past participle": "farspoken",
+    "Popular": false
+  },
+  {
+    "Base form": "feed",
+    "Past simple": "fed",
+    "Past participle": "fed",
+    "Popular": true
+  },
+  {
+    "Base form": "feel",
+    "Past simple": "felt",
+    "Past participle": "felt",
+    "Popular": true
+  },
+  {
+    "Base form": "fight",
+    "Past simple": "fought",
+    "Past participle": "fought, foughten",
+    "Popular": true
+  },
+  {
+    "Base form": "find",
+    "Past simple": "found, fand",
+    "Past participle": "found, founden",
+    "Popular": true
+  },
+  {
+    "Base form": "finedraw",
+    "Past simple": "finedrew",
+    "Past participle": "finedrawn",
+    "Popular": false
+  },
+  {
+    "Base form": "fistfight",
+    "Past simple": "fistfought",
+    "Past participle": "fistfought, fistfoughten",
+    "Popular": false
+  },
+  {
+    "Base form": "flabagast",
+    "Past simple": "flabagasted",
+    "Past participle": "flabaghast",
+    "Popular": false
+  },
+  {
+    "Base form": "flee",
+    "Past simple": "fled",
+    "Past participle": "fled",
+    "Popular": true
+  },
+  {
+    "Base form": "fling",
+    "Past simple": "flung",
+    "Past participle": "flung",
+    "Popular": true
+  },
+  {
+    "Base form": "flite",
+    "Past simple": "flited, flote",
+    "Past participle": "flited, flitten",
+    "Popular": false
+  },
+  {
+    "Base form": "floodlight",
+    "Past simple": "floodlighted, floodlit",
+    "Past participle": "floodlighted, floodlit",
+    "Popular": true
+  },
+  {
+    "Base form": "fly",
+    "Past simple": "flew",
+    "Past participle": "flown",
+    "Popular": true
+  },
+  {
+    "Base form": "flyblow",
+    "Past simple": "flyblew",
+    "Past participle": "flyblown",
+    "Popular": false
+  },
+  {
+    "Base form": "forbear",
+    "Past simple": "forbore",
+    "Past participle": "forborne",
+    "Popular": true
+  },
+  {
+    "Base form": "forbeat",
+    "Past simple": "forbeat",
+    "Past participle": "forbeaten",
+    "Popular": true
+  },
+  {
+    "Base form": "forbid",
+    "Past simple": "forbid, forbade, forbad",
+    "Past participle": "forbidden",
+    "Popular": true
+  },
+  {
+    "Base form": "forbite",
+    "Past simple": "forbit",
+    "Past participle": "forbitten",
+    "Popular": false
+  },
+  {
+    "Base form": "forbreak",
+    "Past simple": "forbroke",
+    "Past participle": "forbroken",
+    "Popular": false
+  },
+  {
+    "Base form": "forburst",
+    "Past simple": "forburst, forbrast",
+    "Past participle": "forburst, forbursten",
+    "Popular": false
+  },
+  {
+    "Base form": "forcarve",
+    "Past simple": "forcorve, forcarved",
+    "Past participle": "forcorven, forcarved",
+    "Popular": false
+  },
+  {
+    "Base form": "forcleave",
+    "Past simple": "forclove",
+    "Past participle": "forcloven",
+    "Popular": false
+  },
+  {
+    "Base form": "fordo",
+    "Past simple": "fordid",
+    "Past participle": "fordone",
+    "Popular": false
+  },
+  {
+    "Base form": "fordrive",
+    "Past simple": "fordrove",
+    "Past participle": "fordriven",
+    "Popular": false
+  },
+  {
+    "Base form": "forebear",
+    "Past simple": "forebore",
+    "Past participle": "foreborne",
+    "Popular": false
+  },
+  {
+    "Base form": "forebite",
+    "Past simple": "forebit",
+    "Past participle": "forebitten",
+    "Popular": false
+  },
+  {
+    "Base form": "forecast",
+    "Past simple": "forecast",
+    "Past participle": "forecast",
+    "Popular": true
+  },
+  {
+    "Base form": "forechoose",
+    "Past simple": "forechose",
+    "Past participle": "forechosen",
+    "Popular": false
+  },
+  {
+    "Base form": "foredo",
+    "Past simple": "foredid",
+    "Past participle": "foredone",
+    "Popular": false
+  },
+  {
+    "Base form": "foredraw",
+    "Past simple": "foredrew",
+    "Past participle": "foredrawn",
+    "Popular": false
+  },
+  {
+    "Base form": "forego",
+    "Past simple": "forewent",
+    "Past participle": "foregone",
+    "Popular": false
+  },
+  {
+    "Base form": "forehew",
+    "Past simple": "forehewed",
+    "Past participle": "forehewn, forehewed",
+    "Popular": false
+  },
+  {
+    "Base form": "forehold",
+    "Past simple": "foreheld",
+    "Past participle": "foreheld, foreholden",
+    "Popular": false
+  },
+  {
+    "Base form": "foreknow",
+    "Past simple": "foreknew",
+    "Past participle": "foreknown",
+    "Popular": false
+  },
+  {
+    "Base form": "forelie",
+    "Past simple": "forelay",
+    "Past participle": "forelain",
+    "Popular": false
+  },
+  {
+    "Base form": "forerun",
+    "Past simple": "foreran",
+    "Past participle": "forerun",
+    "Popular": false
+  },
+  {
+    "Base form": "foresee",
+    "Past simple": "foresaw",
+    "Past participle": "foreseen",
+    "Popular": true
+  },
+  {
+    "Base form": "foreshape",
+    "Past simple": "foreshaped, foreshope",
+    "Past participle": "foreshaped, foreshapen",
+    "Popular": false
+  },
+  {
+    "Base form": "foreshew",
+    "Past simple": "foreshewed",
+    "Past participle": "foreshewn",
+    "Popular": false
+  },
+  {
+    "Base form": "foreshow",
+    "Past simple": "foreshowed",
+    "Past participle": "foreshown",
+    "Popular": false
+  },
+  {
+    "Base form": "forespeak",
+    "Past simple": "forespoke",
+    "Past participle": "forespoken",
+    "Popular": false
+  },
+  {
+    "Base form": "foreswear",
+    "Past simple": "foreswore",
+    "Past participle": "foresworn",
+    "Popular": false
+  },
+  {
+    "Base form": "foretake",
+    "Past simple": "foretook",
+    "Past participle": "foretaken",
+    "Popular": false
+  },
+  {
+    "Base form": "foretell",
+    "Past simple": "foretold",
+    "Past participle": "foretold",
+    "Popular": true
+  },
+  {
+    "Base form": "forfight",
+    "Past simple": "forfought",
+    "Past participle": "forfought, forfoughten",
+    "Popular": false
+  },
+  {
+    "Base form": "forfret",
+    "Past simple": "forfretted, forfreet, forfrate",
+    "Past participle": "forfretted, forfretten",
+    "Popular": false
+  },
+  {
+    "Base form": "forget",
+    "Past simple": "forgot, forgat",
+    "Past participle": "forgotten, forgot",
+    "Popular": true
+  },
+  {
+    "Base form": "forgive",
+    "Past simple": "forgave",
+    "Past participle": "forgiven",
+    "Popular": true
+  },
+  {
+    "Base form": "forgnide",
+    "Past simple": "forgnode, forgnided",
+    "Past participle": "forgnidden, forgnided",
+    "Popular": false
+  },
+  {
+    "Base form": "forgo",
+    "Past simple": "forwent",
+    "Past participle": "forgone",
+    "Popular": false
+  },
+  {
+    "Base form": "forgrow",
+    "Past simple": "forgrew",
+    "Past participle": "forgrown",
+    "Popular": false
+  },
+  {
+    "Base form": "forhele",
+    "Past simple": "forhole",
+    "Past participle": "forholen",
+    "Popular": false
+  },
+  {
+    "Base form": "forhold",
+    "Past simple": "forheld",
+    "Past participle": "forheld, forholden",
+    "Popular": false
+  },
+  {
+    "Base form": "forlat",
+    "Past simple": "forleet, forlut",
+    "Past participle": "forlatten, forlutten",
+    "Popular": false
+  },
+  {
+    "Base form": "forlese",
+    "Past simple": "forlore",
+    "Past participle": "forlorn",
+    "Popular": false
+  },
+  {
+    "Base form": "forlie",
+    "Past simple": "forlay",
+    "Past participle": "forlain",
+    "Popular": false
+  },
+  {
+    "Base form": "formelt",
+    "Past simple": "formelted, formolt",
+    "Past participle": "formelted, formolten",
+    "Popular": false
+  },
+  {
+    "Base form": "fornim",
+    "Past simple": "fornam, fornimmed",
+    "Past participle": "fornum, fornumb, fornimmed",
+    "Popular": false
+  },
+  {
+    "Base form": "forsake",
+    "Past simple": "forsook",
+    "Past participle": "forsaken",
+    "Popular": true
+  },
+  {
+    "Base form": "forsee",
+    "Past simple": "forsaw",
+    "Past participle": "forseen",
+    "Popular": false
+  },
+  {
+    "Base form": "forshake",
+    "Past simple": "forshook",
+    "Past participle": "forshaken",
+    "Popular": false
+  },
+  {
+    "Base form": "forshape",
+    "Past simple": "forshoop, forshope, forshaped",
+    "Past participle": "forshapen, forshaped",
+    "Popular": false
+  },
+  {
+    "Base form": "forshrink",
+    "Past simple": "forshrank",
+    "Past participle": "forshrunk, forshrunken",
+    "Popular": false
+  },
+  {
+    "Base form": "forsing",
+    "Past simple": "forsang",
+    "Past participle": "forsung",
+    "Popular": false
+  },
+  {
+    "Base form": "forsling",
+    "Past simple": "forslung, forslong",
+    "Past participle": "forslung, forslongen",
+    "Popular": false
+  },
+  {
+    "Base form": "forsmite",
+    "Past simple": "forsmote",
+    "Past participle": "forsmitten",
+    "Popular": false
+  },
+  {
+    "Base form": "forspeak",
+    "Past simple": "forspoke",
+    "Past participle": "forspoken",
+    "Popular": false
+  },
+  {
+    "Base form": "forsteal",
+    "Past simple": "forstole",
+    "Past participle": "forstolen",
+    "Popular": false
+  },
+  {
+    "Base form": "forswear",
+    "Past simple": "forswore",
+    "Past participle": "forsworn",
+    "Popular": true
+  },
+  {
+    "Base form": "forswing",
+    "Past simple": "forswang, forswung",
+    "Past participle": "forswungen, forswung",
+    "Popular": false
+  },
+  {
+    "Base form": "forswink",
+    "Past simple": "forswank, forswonk",
+    "Past participle": "forswunken, forswunk, forswonk",
+    "Popular": false
+  },
+  {
+    "Base form": "fortake",
+    "Past simple": "fortook",
+    "Past participle": "fortaken",
+    "Popular": false
+  },
+  {
+    "Base form": "fortear",
+    "Past simple": "fortore",
+    "Past participle": "fortorn",
+    "Popular": false
+  },
+  {
+    "Base form": "fortee",
+    "Past simple": "forteed, fortow",
+    "Past participle": "forteed, fortown",
+    "Popular": false
+  },
+  {
+    "Base form": "forthbear",
+    "Past simple": "forthbore",
+    "Past participle": "forthborn",
+    "Popular": false
+  },
+  {
+    "Base form": "forthcome",
+    "Past simple": "forthcame",
+    "Past participle": "forthcome",
+    "Popular": false
+  },
+  {
+    "Base form": "forthdraw",
+    "Past simple": "forthdrew",
+    "Past participle": "forthdrawn",
+    "Popular": false
+  },
+  {
+    "Base form": "forthgo",
+    "Past simple": "forthwent",
+    "Past participle": "forthgone",
+    "Popular": false
+  },
+  {
+    "Base form": "forthnim",
+    "Past simple": "forthnam, forthnimmed",
+    "Past participle": "forthnum, forthnumb, forthnimmed",
+    "Popular": false
+  },
+  {
+    "Base form": "forthrow",
+    "Past simple": "forthrew",
+    "Past participle": "forthrown",
+    "Popular": false
+  },
+  {
+    "Base form": "forthshow",
+    "Past simple": "forthshowed",
+    "Past participle": "forthshown, forthshowed",
+    "Popular": false
+  },
+  {
+    "Base form": "forthspeak",
+    "Past simple": "forspoke",
+    "Past participle": "forthspoken",
+    "Popular": false
+  },
+  {
+    "Base form": "fortread",
+    "Past simple": "fortrod",
+    "Past participle": "fortrodden",
+    "Popular": false
+  },
+  {
+    "Base form": "forwax",
+    "Past simple": "forwaxed",
+    "Past participle": "forwaxed, forwaxen",
+    "Popular": false
+  },
+  {
+    "Base form": "forwear",
+    "Past simple": "forwore",
+    "Past participle": "forworn",
+    "Popular": false
+  },
+  {
+    "Base form": "forworth",
+    "Past simple": "forworthed, forword",
+    "Past participle": "forworthed, forworthen, forworden",
+    "Popular": false
+  },
+  {
+    "Base form": "foryield",
+    "Past simple": "foryold, foryielded",
+    "Past participle": "foryolden, foryielded",
+    "Popular": false
+  },
+  {
+    "Base form": "freefall",
+    "Past simple": "freefell",
+    "Past participle": "freefallen",
+    "Popular": false
+  },
+  {
+    "Base form": "freeride",
+    "Past simple": "freerode",
+    "Past participle": "freeridden",
+    "Popular": false
+  },
+  {
+    "Base form": "freerun",
+    "Past simple": "freeran",
+    "Past participle": "freerun",
+    "Popular": false
+  },
+  {
+    "Base form": "freeze",
+    "Past simple": "froze",
+    "Past participle": "frozen",
+    "Popular": true
+  },
+  {
+    "Base form": "fret",
+    "Past simple": "fretted, fret, freet, frate",
+    "Past participle": "fretted, fretten",
+    "Popular": false
+  },
+  {
+    "Base form": "frostbite",
+    "Past simple": "frostbit",
+    "Past participle": "frostbitten",
+    "Popular": false
+  },
+  {
+    "Base form": "fullcome",
+    "Past simple": "fullcame",
+    "Past participle": "fullcome",
+    "Popular": false
+  },
+  {
+    "Base form": "fulldo",
+    "Past simple": "fulldid",
+    "Past participle": "fulldone",
+    "Popular": false
+  },
+  {
+    "Base form": "gainsay",
+    "Past simple": "gainsaid",
+    "Past participle": "gainsaid",
+    "Popular": true
+  },
+  {
+    "Base form": "gainstrive",
+    "Past simple": "gainstrived, gainstrove",
+    "Past participle": "gainstrived, gainstriven",
+    "Popular": false
+  },
+  {
+    "Base form": "gan",
+    "Past simple": "went",
+    "Past participle": "gone",
+    "Popular": false
+  },
+  {
+    "Base form": "get",
+    "Past simple": "got",
+    "Past participle": "gotten",
+    "Popular": true
+  },
+  {
+    "Base form": "giue",
+    "Past simple": "gaue",
+    "Past participle": "giuen",
+    "Popular": false
+  },
+  {
+    "Base form": "gild",
+    "Past simple": "gilt",
+    "Past participle": "gilt",
+    "Popular": true
+  },
+  {
+    "Base form": "gird",
+    "Past simple": "girded, girt",
+    "Past participle": "girded, girt",
+    "Popular": true
+  },
+  {
+    "Base form": "give",
+    "Past simple": "gave",
+    "Past participle": "given",
+    "Popular": true
+  },
+  {
+    "Base form": "glide",
+    "Past simple": "glided, glid, glode",
+    "Past participle": "glide",
+    "Popular": false
+  },
+  {
+    "Base form": "gnaw",
+    "Past simple": "gnawed",
+    "Past participle": "gnawed, gnawn",
+    "Popular": false
+  },
+  {
+    "Base form": "gnide",
+    "Past simple": "gnode, gnided, gnidded",
+    "Past participle": "gnidden, gnided, gnidded",
+    "Popular": false
+  },
+  {
+    "Base form": "go",
+    "Past simple": "went",
+    "Past participle": "gone",
+    "Popular": true
+  },
+  {
+    "Base form": "grave",
+    "Past simple": "graved, grove",
+    "Past participle": "graved, graven",
+    "Popular": true
+  },
+  {
+    "Base form": "grind",
+    "Past simple": "ground",
+    "Past participle": "ground",
+    "Popular": true
+  },
+  {
+    "Base form": "grow",
+    "Past simple": "grew",
+    "Past participle": "grown",
+    "Popular": true
+  },
+  {
+    "Base form": "growe",
+    "Past simple": "grewe",
+    "Past participle": "growne",
+    "Popular": false
+  },
+  {
+    "Base form": "hagride",
+    "Past simple": "hagrode, hagrid",
+    "Past participle": "hagridden, hagrid",
+    "Popular": false
+  },
+  {
+    "Base form": "hamstring",
+    "Past simple": "hamstringed, hamstrung",
+    "Past participle": "hamstringed, hamstrung",
+    "Popular": true
+  },
+  {
+    "Base form": "handwrite",
+    "Past simple": "handwrote",
+    "Past participle": "handwritten",
+    "Popular": false
+  },
+  {
+    "Base form": "hang",
+    "Past simple": "hung",
+    "Past participle": "hung",
+    "Popular": true
+  },
+  {
+    "Base form": "have",
+    "Past simple": "had",
+    "Past participle": "had",
+    "Popular": true
+  },
+  {
+    "Base form": "heatsink",
+    "Past simple": "heatsinked",
+    "Past participle": "heatsinked, heatsunk",
+    "Popular": false
+  },
+  {
+    "Base form": "hear",
+    "Past simple": "heard",
+    "Past participle": "heard",
+    "Popular": true
+  },
+  {
+    "Base form": "heave",
+    "Past simple": "heaved, hove",
+    "Past participle": "heaved, hove, hoven",
+    "Popular": true
+  },
+  {
+    "Base form": "hele",
+    "Past simple": "hole, heled",
+    "Past participle": "holen, heled",
+    "Popular": false
+  },
+  {
+    "Base form": "hit",
+    "Past simple": "hit",
+    "Past participle": "hit",
+    "Popular": true
+  },
+  {
+    "Base form": "help",
+    "Past simple": "helped, holp",
+    "Past participle": "helped, holpen",
+    "Popular": true
+  },
+  {
+    "Base form": "hew",
+    "Past simple": "hewed, hew",
+    "Past participle": "hewed, hewn",
+    "Popular": true
+  },
+  {
+    "Base form": "hide",
+    "Past simple": "hid",
+    "Past participle": "hidden",
+    "Popular": true
+  },
+  {
+    "Base form": "hold",
+    "Past simple": "held",
+    "Past participle": "held, holden",
+    "Popular": true
+  },
+  {
+    "Base form": "hote",
+    "Past simple": "hight",
+    "Past participle": "hoten",
+    "Popular": false
+  },
+  {
+    "Base form": "hould",
+    "Past simple": "held",
+    "Past participle": "held, houlden",
+    "Popular": false
+  },
+  {
+    "Base form": "housebreak",
+    "Past simple": "housebroke",
+    "Past participle": "housebroken",
+    "Popular": false
+  },
+  {
+    "Base form": "hurt",
+    "Past simple": "hurt",
+    "Past participle": "hurt",
+    "Popular": true
+  },
+  {
+    "Base form": "inbear",
+    "Past simple": "inbore",
+    "Past participle": "inborne",
+    "Popular": false
+  },
+  {
+    "Base form": "inbeat",
+    "Past simple": "inbeat",
+    "Past participle": "inbeaten",
+    "Popular": false
+  },
+  {
+    "Base form": "inblow",
+    "Past simple": "inblew",
+    "Past participle": "inblown",
+    "Popular": false
+  },
+  {
+    "Base form": "inbreak",
+    "Past simple": "inbroke",
+    "Past participle": "inbroken",
+    "Popular": false
+  },
+  {
+    "Base form": "indelve",
+    "Past simple": "indelved, indolve",
+    "Past participle": "indelved, indolven",
+    "Popular": false
+  },
+  {
+    "Base form": "infall",
+    "Past simple": "infell",
+    "Past participle": "infallen",
+    "Popular": false
+  },
+  {
+    "Base form": "ingrow",
+    "Past simple": "ingrew",
+    "Past participle": "ingrown",
+    "Popular": false
+  },
+  {
+    "Base form": "inhold",
+    "Past simple": "inheld",
+    "Past participle": "inheld, inholden",
+    "Popular": false
+  },
+  {
+    "Base form": "inlay",
+    "Past simple": "inlaid",
+    "Past participle": "inlaid",
+    "Popular": true
+  },
+  {
+    "Base form": "input",
+    "Past simple": "input, inputted",
+    "Past participle": "input, inputted",
+    "Popular": true
+  },
+  {
+    "Base form": "insee",
+    "Past simple": "insaw",
+    "Past participle": "inseen",
+    "Popular": false
+  },
+  {
+    "Base form": "inset",
+    "Past simple": "inset",
+    "Past participle": "inset",
+    "Popular": true
+  },
+  {
+    "Base form": "instrew",
+    "Past simple": "instrewed",
+    "Past participle": "instrewn",
+    "Popular": false
+  },
+  {
+    "Base form": "intercome",
+    "Past simple": "intercame",
+    "Past participle": "intercome",
+    "Popular": false
+  },
+  {
+    "Base form": "intergrow",
+    "Past simple": "intergrew",
+    "Past participle": "intergrown",
+    "Popular": false
+  },
+  {
+    "Base form": "interknow",
+    "Past simple": "interknew",
+    "Past participle": "interknown",
+    "Popular": false
+  },
+  {
+    "Base form": "interweave",
+    "Past simple": "interwove, interweaved",
+    "Past participle": "interwoven",
+    "Popular": true
+  },
+  {
+    "Base form": "inweave",
+    "Past simple": "inwove",
+    "Past participle": "inwoven",
+    "Popular": false
+  },
+  {
+    "Base form": "inwrite",
+    "Past simple": "inwrote",
+    "Past participle": "inwritten",
+    "Popular": false
+  },
+  {
+    "Base form": "jailbreak",
+    "Past simple": "jailbroke",
+    "Past participle": "jailbroken",
+    "Popular": false
+  },
+  {
+    "Base form": "jigsaw",
+    "Past simple": "jigsawed",
+    "Past participle": "jigsawed, jigsawn",
+    "Popular": false
+  },
+  {
+    "Base form": "joyride",
+    "Past simple": "joyrode",
+    "Past participle": "joyridden",
+    "Popular": false
+  },
+  {
+    "Base form": "keep",
+    "Past simple": "kept",
+    "Past participle": "kept",
+    "Popular": true
+  },
+  {
+    "Base form": "ken",
+    "Past simple": "kenned, kent",
+    "Past participle": "kent",
+    "Popular": true
+  },
+  {
+    "Base form": "kneel",
+    "Past simple": "knelt, knelled",
+    "Past participle": "knelt, knelled",
+    "Popular": true
+  },
+  {
+    "Base form": "knit",
+    "Past simple": "knit, knitted",
+    "Past participle": "knit, knitted",
+    "Popular": true
+  },
+  {
+    "Base form": "know",
+    "Past simple": "knew, knowed",
+    "Past participle": "known, knowen, knowed",
+    "Popular": true
+  },
+  {
+    "Base form": "lade",
+    "Past simple": "laded",
+    "Past participle": "laden, laded",
+    "Popular": true
+  },
+  {
+    "Base form": "lay",
+    "Past simple": "laid",
+    "Past participle": "laid",
+    "Popular": true
+  },
+  {
+    "Base form": "lead",
+    "Past simple": "led",
+    "Past participle": "led",
+    "Popular": true
+  },
+  {
+    "Base form": "lean",
+    "Past simple": "leant, leaned",
+    "Past participle": "leant, leaned",
+    "Popular": true
+  },
+  {
+    "Base form": "leap",
+    "Past simple": "leaped, leapt, lept, lope",
+    "Past participle": "leaped, leapt, lopen",
+    "Popular": true
+  },
+  {
+    "Base form": "learn",
+    "Past simple": "learnt",
+    "Past participle": "learnt",
+    "Popular": true
+  },
+  {
+    "Base form": "leave",
+    "Past simple": "left",
+    "Past participle": "left",
+    "Popular": true
+  },
+  {
+    "Base form": "lemme",
+    "Past simple": "lemme",
+    "Past participle": false,
+    "Popular": ""
+  },
+  {
+    "Base form": "lend",
+    "Past simple": "lent",
+    "Past participle": "lent",
+    "Popular": true
+  },
+  {
+    "Base form": "let",
+    "Past simple": "let, leet",
+    "Past participle": "let, letten",
+    "Popular": true
+  },
+  {
+    "Base form": "lie",
+    "Past simple": "lay",
+    "Past participle": "lain",
+    "Popular": true
+  },
+  {
+    "Base form": "light",
+    "Past simple": "lit, lighted",
+    "Past participle": "lit, lighted",
+    "Popular": true
+  },
+  {
+    "Base form": "lin",
+    "Past simple": "linned, lan",
+    "Past participle": "linned, lun",
+    "Popular": false
+  },
+  {
+    "Base form": "load",
+    "Past simple": "loaded",
+    "Past participle": "loaded, loaden",
+    "Popular": true
+  },
+  {
+    "Base form": "lose",
+    "Past simple": "lost",
+    "Past participle": "lost",
+    "Popular": true
+  },
+  {
+    "Base form": "make",
+    "Past simple": "made",
+    "Past participle": "made",
+    "Popular": true
+  },
+  {
+    "Base form": "manswear",
+    "Past simple": "manswore",
+    "Past participle": "mansworn",
+    "Popular": false
+  },
+  {
+    "Base form": "may",
+    "Past simple": "might",
+    "Past participle": "might",
+    "Popular": true
+  },
+  {
+    "Base form": "mean",
+    "Past simple": "ment",
+    "Past participle": "ment",
+    "Popular": true
+  },
+  {
+    "Base form": "meet",
+    "Past simple": "met",
+    "Past participle": "met",
+    "Popular": true
+  },
+  {
+    "Base form": "melt",
+    "Past simple": "melted, rarely molt",
+    "Past participle": "manswear",
+    "Popular": false
+  },
+  {
+    "Base form": "mis-hit",
+    "Past simple": "mis-hitting",
+    "Past participle": "mis-hit",
+    "Popular": false
+  },
+  {
+    "Base form": "misbear",
+    "Past simple": "misbore",
+    "Past participle": "misborne",
+    "Popular": false
+  },
+  {
+    "Base form": "misbeat",
+    "Past simple": "misbeat",
+    "Past participle": "misbeat, misbeaten",
+    "Popular": false
+  },
+  {
+    "Base form": "misbede",
+    "Past simple": "misbode",
+    "Past participle": "misboden",
+    "Popular": false
+  },
+  {
+    "Base form": "misbefall",
+    "Past simple": "misbefell",
+    "Past participle": "misbefallen",
+    "Popular": false
+  },
+  {
+    "Base form": "misbid",
+    "Past simple": "misbid, misbad,, misbade",
+    "Past participle": "misbidden",
+    "Popular": false
+  },
+  {
+    "Base form": "miscast",
+    "Past simple": "miscast",
+    "Past participle": "miscast",
+    "Popular": true
+  },
+  {
+    "Base form": "mischoose",
+    "Past simple": "mischose",
+    "Past participle": "mischosen",
+    "Popular": false
+  },
+  {
+    "Base form": "miscleave",
+    "Past simple": "miscleft, misclove, miscleaved",
+    "Past participle": "miscleft, miscloven, miscleaved",
+    "Popular": false
+  },
+  {
+    "Base form": "miscome",
+    "Past simple": "miscame",
+    "Past participle": "miscome",
+    "Popular": false
+  },
+  {
+    "Base form": "misdeal",
+    "Past simple": "misdealt",
+    "Past participle": "misdealt",
+    "Popular": true
+  },
+  {
+    "Base form": "misdo",
+    "Past simple": "misdid",
+    "Past participle": "misdone",
+    "Popular": false
+  },
+  {
+    "Base form": "misfall",
+    "Past simple": "misfell",
+    "Past participle": "misfallen",
+    "Popular": false
+  },
+  {
+    "Base form": "misget",
+    "Past simple": "misgot",
+    "Past participle": "misgotten",
+    "Popular": false
+  },
+  {
+    "Base form": "",
+    "Past simple": "",
+    "Past participle": "",
+    "Popular": false
+  },
+  {
+    "Base form": "misgive",
+    "Past simple": "misgave",
+    "Past participle": "misgiven",
+    "Popular": true
+  },
+  {
+    "Base form": "misgo",
+    "Past simple": "miswent",
+    "Past participle": "misgone",
+    "Popular": false
+  },
+  {
+    "Base form": "misgrow",
+    "Past simple": "misgrew",
+    "Past participle": "misgrown",
+    "Popular": false
+  },
+  {
+    "Base form": "misheard",
+    "Past simple": "misheard",
+    "Past participle": "misheard",
+    "Popular": true
+  },
+  {
+    "Base form": "mishit",
+    "Past simple": "mishit",
+    "Past participle": "mishit",
+    "Popular": true
+  },
+  {
+    "Base form": "mishold",
+    "Past simple": "misheld",
+    "Past participle": "misholden, misheld",
+    "Popular": false
+  },
+  {
+    "Base form": "misknow",
+    "Past simple": "misknew",
+    "Past participle": "misknown",
+    "Popular": false
+  },
+  {
+    "Base form": "mislay",
+    "Past simple": "mislaid",
+    "Past participle": "mislaid",
+    "Popular": true
+  },
+  {
+    "Base form": "mislead",
+    "Past simple": "misled",
+    "Past participle": "misled",
+    "Popular": true
+  },
+  {
+    "Base form": "mislie",
+    "Past simple": "mislay",
+    "Past participle": "mislain",
+    "Popular": false
+  },
+  {
+    "Base form": "misread",
+    "Past simple": "misread",
+    "Past participle": "misread",
+    "Popular": true
+  },
+  {
+    "Base form": "missee",
+    "Past simple": "missaw",
+    "Past participle": "misseen",
+    "Popular": false
+  },
+  {
+    "Base form": "misspell",
+    "Past simple": "misspelt, misspelled",
+    "Past participle": "misspelt, misspelled",
+    "Popular": true
+  },
+  {
+    "Base form": "misspend",
+    "Past simple": "misspent",
+    "Past participle": "misspent",
+    "Popular": true
+  },
+  {
+    "Base form": "misspeak",
+    "Past simple": "misspoke",
+    "Past participle": "misspoken",
+    "Popular": false
+  },
+  {
+    "Base form": "misswear",
+    "Past simple": "misswore",
+    "Past participle": "missworn",
+    "Popular": false
+  },
+  {
+    "Base form": "mistake",
+    "Past simple": "mistook",
+    "Past participle": "mistaken",
+    "Popular": true
+  },
+  {
+    "Base form": "misthrow",
+    "Past simple": "misthrew",
+    "Past participle": "misthrown",
+    "Popular": false
+  },
+  {
+    "Base form": "misunderstand",
+    "Past simple": "miunderstood",
+    "Past participle": "misunderstood",
+    "Popular": true
+  },
+  {
+    "Base form": "miswear",
+    "Past simple": "miswore",
+    "Past participle": "misworn",
+    "Popular": false
+  },
+  {
+    "Base form": "miswrite",
+    "Past simple": "miswrote",
+    "Past participle": "miswritten",
+    "Popular": false
+  },
+  {
+    "Base form": "misyield",
+    "Past simple": "misyielded, misyold",
+    "Past participle": "misyielded, misyolden",
+    "Popular": false
+  },
+  {
+    "Base form": "mean",
+    "Past simple": "meant",
+    "Past participle": "meant",
+    "Popular": true
+  },
+  {
+    "Base form": "meet",
+    "Past simple": "met",
+    "Past participle": "met",
+    "Popular": true
+  },
+  {
+    "Base form": "mow",
+    "Past simple": "mowed",
+    "Past participle": "mowed, mown",
+    "Popular": true
+  },
+  {
+    "Base form": "nill",
+    "Past simple": "nilled, nould",
+    "Past participle": "nilled",
+    "Popular": false
+  },
+  {
+    "Base form": "nim",
+    "Past simple": "nimmed, nam",
+    "Past participle": "nimmed, nomen, num, numb",
+    "Popular": false
+  },
+  {
+    "Base form": "noseride",
+    "Past simple": "noserode",
+    "Past participle": "noseridden",
+    "Popular": false
+  },
+  {
+    "Base form": "off-bear",
+    "Past simple": "off-bore",
+    "Past participle": "off-borne",
+    "Popular": false
+  },
+  {
+    "Base form": "offbear",
+    "Past simple": "offbore",
+    "Past participle": "off-bear",
+    "Popular": false
+  },
+  {
+    "Base form": "offhold",
+    "Past simple": "offheld",
+    "Past participle": "offheld, offholden",
+    "Popular": false
+  },
+  {
+    "Base form": "offset",
+    "Past simple": "offset",
+    "Past participle": "offset",
+    "Popular": true
+  },
+  {
+    "Base form": "offsmite",
+    "Past simple": "offsmote",
+    "Past participle": "offsmitten",
+    "Popular": false
+  },
+  {
+    "Base form": "offtake",
+    "Past simple": "offtook",
+    "Past participle": "offtaken",
+    "Popular": false
+  },
+  {
+    "Base form": "oncome",
+    "Past simple": "oncame",
+    "Past participle": "oncome",
+    "Popular": false
+  },
+  {
+    "Base form": "onfall",
+    "Past simple": "onfell",
+    "Past participle": "onfallen",
+    "Popular": false
+  },
+  {
+    "Base form": "onhold",
+    "Past simple": "onheld",
+    "Past participle": "onheld, onholden",
+    "Popular": false
+  },
+  {
+    "Base form": "ontake",
+    "Past simple": "ontook",
+    "Past participle": "ontaken",
+    "Popular": false
+  },
+  {
+    "Base form": "ought",
+    "Past simple": false,
+    "Past participle": "ought",
+    "Popular": false
+  },
+  {
+    "Base form": "outbear",
+    "Past simple": "outbore",
+    "Past participle": "outborne",
+    "Popular": false
+  },
+  {
+    "Base form": "outbid",
+    "Past simple": "outbid",
+    "Past participle": "outbid",
+    "Popular": true
+  },
+  {
+    "Base form": "outbreak",
+    "Past simple": "outbroke",
+    "Past participle": "outbroken",
+    "Popular": false
+  },
+  {
+    "Base form": "outburst",
+    "Past simple": "outburst, outbrast",
+    "Past participle": "outburst, outbursten",
+    "Popular": false
+  },
+  {
+    "Base form": "outcreep",
+    "Past simple": "outcrept, outcrope",
+    "Past participle": "outcrept, outcropen",
+    "Popular": false
+  },
+  {
+    "Base form": "outdo",
+    "Past simple": "outdid",
+    "Past participle": "outdone",
+    "Popular": true
+  },
+  {
+    "Base form": "outdraw",
+    "Past simple": "outdrew",
+    "Past participle": "outdrawn",
+    "Popular": false
+  },
+  {
+    "Base form": "outdrive",
+    "Past simple": "outdrove",
+    "Past participle": "outdriven",
+    "Popular": false
+  },
+  {
+    "Base form": "outeat",
+    "Past simple": "outate",
+    "Past participle": "outeaten",
+    "Popular": false
+  },
+  {
+    "Base form": "outfall",
+    "Past simple": "outfell",
+    "Past participle": "outfallen",
+    "Popular": true
+  },
+  {
+    "Base form": "outfight",
+    "Past simple": "outfought",
+    "Past participle": "outfought",
+    "Popular": true
+  },
+  {
+    "Base form": "outfly",
+    "Past simple": "outflew",
+    "Past participle": "outflown",
+    "Popular": false
+  },
+  {
+    "Base form": "outgive",
+    "Past simple": "outgave",
+    "Past participle": "outgiven",
+    "Popular": false
+  },
+  {
+    "Base form": "outgo",
+    "Past simple": "outwent",
+    "Past participle": "outgone",
+    "Popular": false
+  },
+  {
+    "Base form": "outgrow",
+    "Past simple": "outgrew",
+    "Past participle": "outgrown",
+    "Popular": true
+  },
+  {
+    "Base form": "outhold",
+    "Past simple": "outheld",
+    "Past participle": "outheld, outholden",
+    "Popular": false
+  },
+  {
+    "Base form": "outnim",
+    "Past simple": "outnam, outnimmed",
+    "Past participle": "outnome, outnomen, outnum, outnimmed",
+    "Popular": false
+  },
+  {
+    "Base form": "output",
+    "Past simple": "output, outputted",
+    "Past participle": "output, outputted",
+    "Popular": true
+  },
+  {
+    "Base form": "outride",
+    "Past simple": "outrode",
+    "Past participle": "outridden",
+    "Popular": false
+  },
+  {
+    "Base form": "outring",
+    "Past simple": "outrang",
+    "Past participle": "outrung",
+    "Popular": false
+  },
+  {
+    "Base form": "outrive",
+    "Past simple": "outrove",
+    "Past participle": "outriven",
+    "Popular": false
+  },
+  {
+    "Base form": "outrun",
+    "Past simple": "outran",
+    "Past participle": "outrun",
+    "Popular": true
+  },
+  {
+    "Base form": "outsell",
+    "Past simple": "outsold",
+    "Past participle": "outsold",
+    "Popular": true
+  },
+  {
+    "Base form": "outsee",
+    "Past simple": "outsaw",
+    "Past participle": "outseen",
+    "Popular": false
+  },
+  {
+    "Base form": "outshine",
+    "Past simple": "outshown",
+    "Past participle": "outshown",
+    "Popular": true
+  },
+  {
+    "Base form": "outshow",
+    "Past simple": "outshowed",
+    "Past participle": "outshown",
+    "Popular": false
+  },
+  {
+    "Base form": "outsing",
+    "Past simple": "outsang",
+    "Past participle": "outsung",
+    "Popular": false
+  },
+  {
+    "Base form": "outspeak",
+    "Past simple": "outspoke",
+    "Past participle": "outspoken",
+    "Popular": false
+  },
+  {
+    "Base form": "outspring",
+    "Past simple": "outsprang",
+    "Past participle": "outsprung",
+    "Popular": false
+  },
+  {
+    "Base form": "outstink",
+    "Past simple": "outstank",
+    "Past participle": "outstunk",
+    "Popular": false
+  },
+  {
+    "Base form": "outstrike",
+    "Past simple": "outstruck",
+    "Past participle": "outstruck, outstricken",
+    "Popular": false
+  },
+  {
+    "Base form": "outswear",
+    "Past simple": "outswore",
+    "Past participle": "outsworn",
+    "Popular": false
+  },
+  {
+    "Base form": "outswell",
+    "Past simple": "outswelled",
+    "Past participle": "outswelled, outswollen",
+    "Popular": false
+  },
+  {
+    "Base form": "outswim",
+    "Past simple": "outswam",
+    "Past participle": "outswum",
+    "Popular": false
+  },
+  {
+    "Base form": "outtake",
+    "Past simple": "outtook",
+    "Past participle": "outtaken",
+    "Popular": false
+  },
+  {
+    "Base form": "outthrow",
+    "Past simple": "outthrew",
+    "Past participle": "outthrown",
+    "Popular": false
+  },
+  {
+    "Base form": "outwear",
+    "Past simple": "outwore",
+    "Past participle": "outworn",
+    "Popular": false
+  },
+  {
+    "Base form": "outwrite",
+    "Past simple": "outwrote",
+    "Past participle": "outwritten",
+    "Popular": false
+  },
+  {
+    "Base form": "overbear",
+    "Past simple": "overbore",
+    "Past participle": "overborne",
+    "Popular": false
+  },
+  {
+    "Base form": "overbeat",
+    "Past simple": "overbeat",
+    "Past participle": "overbeaten",
+    "Popular": false
+  },
+  {
+    "Base form": "overbid",
+    "Past simple": "overbid",
+    "Past participle": "overbid",
+    "Popular": true
+  },
+  {
+    "Base form": "overbide",
+    "Past simple": "overbode, overbid, overbided",
+    "Past participle": "overbeaten",
+    "Popular": false
+  },
+  {
+    "Base form": "overblow",
+    "Past simple": "overblew",
+    "Past participle": "overblown",
+    "Popular": false
+  },
+  {
+    "Base form": "overbreak",
+    "Past simple": "overbroke",
+    "Past participle": "overbroken",
+    "Popular": false
+  },
+  {
+    "Base form": "overcarve",
+    "Past simple": "overcarved, overcorve",
+    "Past participle": "overcarved",
+    "Popular": false
+  },
+  {
+    "Base form": "overcome",
+    "Past simple": "overcame",
+    "Past participle": "overcome",
+    "Popular": true
+  },
+  {
+    "Base form": "overdo",
+    "Past simple": "overdid",
+    "Past participle": "overdone",
+    "Popular": true
+  },
+  {
+    "Base form": "overdraw",
+    "Past simple": "overdrew",
+    "Past participle": "overdrawn",
+    "Popular": true
+  },
+  {
+    "Base form": "overdrink",
+    "Past simple": "overdrank",
+    "Past participle": "overdrunk",
+    "Popular": false
+  },
+  {
+    "Base form": "overdrive",
+    "Past simple": "overdrove",
+    "Past participle": "overdriven",
+    "Popular": false
+  },
+  {
+    "Base form": "overeat",
+    "Past simple": "overate",
+    "Past participle": "overeaten",
+    "Popular": true
+  },
+  {
+    "Base form": "overfall",
+    "Past simple": "overfell",
+    "Past participle": "overfallen",
+    "Popular": false
+  },
+  {
+    "Base form": "overfly",
+    "Past simple": "overflew",
+    "Past participle": "overflown",
+    "Popular": true
+  },
+  {
+    "Base form": "overget",
+    "Past simple": "overgot, overgat",
+    "Past participle": "overgotten",
+    "Popular": false
+  },
+  {
+    "Base form": "overgive",
+    "Past simple": "overgave",
+    "Past participle": "overgiven",
+    "Popular": false
+  },
+  {
+    "Base form": "overgo",
+    "Past simple": "overwent",
+    "Past participle": "overgone",
+    "Popular": false
+  },
+  {
+    "Base form": "overgrow",
+    "Past simple": "overgrew",
+    "Past participle": "overgrown",
+    "Popular": false
+  },
+  {
+    "Base form": "overhang",
+    "Past simple": "overhung",
+    "Past participle": "overhung",
+    "Popular": true
+  },
+  {
+    "Base form": "overhear",
+    "Past simple": "overheard",
+    "Past participle": "overheard",
+    "Popular": true
+  },
+  {
+    "Base form": "overheave",
+    "Past simple": "overhove, overheaved",
+    "Past participle": "overhoven, overheaved",
+    "Popular": false
+  },
+  {
+    "Base form": "overhold",
+    "Past simple": "overheld",
+    "Past participle": "overheld, overholden",
+    "Popular": false
+  },
+  {
+    "Base form": "overlade",
+    "Past simple": "overladed",
+    "Past participle": "overheld, overholden",
+    "Popular": false
+  },
+  {
+    "Base form": "overlay",
+    "Past simple": "overlaid",
+    "Past participle": "overlaid",
+    "Popular": true
+  },
+  {
+    "Base form": "overlie",
+    "Past simple": "overlay",
+    "Past participle": "overlain",
+    "Popular": false
+  },
+  {
+    "Base form": "overpay",
+    "Past simple": "overpaid",
+    "Past participle": "overpaid",
+    "Popular": true
+  },
+  {
+    "Base form": "override",
+    "Past simple": "overrode",
+    "Past participle": "overridden",
+    "Popular": true
+  },
+  {
+    "Base form": "overrun",
+    "Past simple": "overran",
+    "Past participle": "overrun",
+    "Popular": true
+  },
+  {
+    "Base form": "oversee",
+    "Past simple": "oversaw",
+    "Past participle": "overseen",
+    "Popular": true
+  },
+  {
+    "Base form": "overshake",
+    "Past simple": "overshook",
+    "Past participle": "overshaken",
+    "Popular": false
+  },
+  {
+    "Base form": "overshoot",
+    "Past simple": "overshot",
+    "Past participle": "overshot",
+    "Popular": true
+  },
+  {
+    "Base form": "oversow",
+    "Past simple": "oversowed",
+    "Past participle": "oversown",
+    "Popular": false
+  },
+  {
+    "Base form": "overspeak",
+    "Past simple": "overspoke",
+    "Past participle": "overspoken",
+    "Popular": true
+  },
+  {
+    "Base form": "overspring",
+    "Past simple": "oversprang",
+    "Past participle": "oversprung",
+    "Popular": false
+  },
+  {
+    "Base form": "oversleep",
+    "Past simple": "overslept",
+    "Past participle": "overslept",
+    "Popular": true
+  },
+  {
+    "Base form": "overstraw",
+    "Past simple": "overstrawed",
+    "Past participle": "overstrawn",
+    "Popular": false
+  },
+  {
+    "Base form": "overstrew",
+    "Past simple": "overstrewed",
+    "Past participle": "overstrewn",
+    "Popular": false
+  },
+  {
+    "Base form": "overstrow",
+    "Past simple": "overstrowed",
+    "Past participle": "overstrown",
+    "Popular": false
+  },
+  {
+    "Base form": "overtake",
+    "Past simple": "overtook",
+    "Past participle": "overtaken",
+    "Popular": true
+  },
+  {
+    "Base form": "overthrow",
+    "Past simple": "overthrew",
+    "Past participle": "overthrown",
+    "Popular": true
+  },
+  {
+    "Base form": "overtread",
+    "Past simple": "overtrod",
+    "Past participle": "overtrodden",
+    "Popular": false
+  },
+  {
+    "Base form": "overwear",
+    "Past simple": "overwore",
+    "Past participle": "overworn",
+    "Popular": false
+  },
+  {
+    "Base form": "overwrite",
+    "Past simple": "overwrote",
+    "Past participle": "overwritten",
+    "Popular": false
+  },
+  {
+    "Base form": "partake",
+    "Past simple": "partook",
+    "Past participle": "partaken",
+    "Popular": true
+  },
+  {
+    "Base form": "pay",
+    "Past simple": "paid",
+    "Past participle": "paid",
+    "Popular": true
+  },
+  {
+    "Base form": "phoneticize",
+    "Past simple": "phoneticized",
+    "Past participle": "phoneticized",
+    "Popular": false
+  },
+  {
+    "Base form": "pig-out",
+    "Past simple": "pigging out",
+    "Past participle": "pigged out",
+    "Popular": false
+  },
+  {
+    "Base form": "piledrive",
+    "Past simple": "piledrove",
+    "Past participle": "piledriven",
+    "Popular": false
+  },
+  {
+    "Base form": "plead",
+    "Past simple": "pled, pleaded",
+    "Past participle": "pled, pleaded",
+    "Popular": true
+  },
+  {
+    "Base form": "prank",
+    "Past simple": "pranked",
+    "Past participle": "pranked, archaic prankt",
+    "Popular": true
+  },
+  {
+    "Base form": "pratfall",
+    "Past simple": "pratfell",
+    "Past participle": "pratfallen",
+    "Popular": false
+  },
+  {
+    "Base form": "precum",
+    "Past simple": "precame, precummed",
+    "Past participle": "precame, precum, precummed",
+    "Popular": false
+  },
+  {
+    "Base form": "prepay",
+    "Past simple": "prepaid",
+    "Past participle": "prepayed",
+    "Popular": true
+  },
+  {
+    "Base form": "prerun",
+    "Past simple": "preran",
+    "Past participle": "prerun",
+    "Popular": false
+  },
+  {
+    "Base form": "preset",
+    "Past simple": "preset",
+    "Past participle": "preset",
+    "Popular": true
+  },
+  {
+    "Base form": "presew",
+    "Past simple": "presewed",
+    "Past participle": "presewn",
+    "Popular": false
+  },
+  {
+    "Base form": "preshow",
+    "Past simple": "preshowed",
+    "Past participle": "preshown",
+    "Popular": false
+  },
+  {
+    "Base form": "preshrink",
+    "Past simple": "preshrank, preshrunk",
+    "Past participle": "preshrunk, preshrunken",
+    "Popular": false
+  },
+  {
+    "Base form": "prewrite",
+    "Past simple": "prewrote",
+    "Past participle": "prewritten",
+    "Popular": false
+  },
+  {
+    "Base form": "proove",
+    "Past simple": "prooved, prove",
+    "Past participle": "prooved, prooven",
+    "Popular": false
+  },
+  {
+    "Base form": "prove",
+    "Past simple": "proved",
+    "Past participle": "proved, proven",
+    "Popular": true
+  },
+  {
+    "Base form": "put",
+    "Past simple": "put",
+    "Past participle": "put",
+    "Popular": true
+  },
+  {
+    "Base form": "quartersaw",
+    "Past simple": "quartersawed",
+    "Past participle": "quartersawn",
+    "Popular": false
+  },
+  {
+    "Base form": "quethe",
+    "Past simple": "quethed , quoth, quod",
+    "Past participle": "quethed, quethen",
+    "Popular": false
+  },
+  {
+    "Base form": "quick-freeze",
+    "Past simple": "quick-froze",
+    "Past participle": "quick-frozen",
+    "Popular": false
+  },
+  {
+    "Base form": "quit",
+    "Past simple": "quit",
+    "Past participle": "quit",
+    "Popular": true
+  },
+  {
+    "Base form": "re-run",
+    "Past simple": "re-ran",
+    "Past participle": "re-run",
+    "Popular": false
+  },
+  {
+    "Base form": "re-sew",
+    "Past simple": "re-sewed",
+    "Past participle": "re-sewn",
+    "Popular": false
+  },
+  {
+    "Base form": "read",
+    "Past simple": "read",
+    "Past participle": "read",
+    "Popular": true
+  },
+  {
+    "Base form": "reawake",
+    "Past simple": "reawoke, reawaked",
+    "Past participle": "reawoken, reawaked",
+    "Popular": false
+  },
+  {
+    "Base form": "rebear",
+    "Past simple": "rebore",
+    "Past participle": "reborne",
+    "Popular": false
+  },
+  {
+    "Base form": "rebecome",
+    "Past simple": "rebecame",
+    "Past participle": "rebecome",
+    "Popular": false
+  },
+  {
+    "Base form": "rebegin",
+    "Past simple": "rebegan",
+    "Past participle": "rebegun",
+    "Popular": false
+  },
+  {
+    "Base form": "rebreak",
+    "Past simple": "rebroke",
+    "Past participle": "rebroken",
+    "Popular": false
+  },
+  {
+    "Base form": "rebuild",
+    "Past simple": "rebuilt",
+    "Past participle": "rebuilt",
+    "Popular": true
+  },
+  {
+    "Base form": "recast",
+    "Past simple": "recast",
+    "Past participle": "recast",
+    "Popular": true
+  },
+  {
+    "Base form": "rechoose",
+    "Past simple": "rechose",
+    "Past participle": "rechosen",
+    "Popular": false
+  },
+  {
+    "Base form": "redo",
+    "Past simple": "redid",
+    "Past participle": "redone",
+    "Popular": true
+  },
+  {
+    "Base form": "redraw",
+    "Past simple": "redrew",
+    "Past participle": "redrawn",
+    "Popular": false
+  },
+  {
+    "Base form": "refall",
+    "Past simple": "refell",
+    "Past participle": "refallen",
+    "Popular": false
+  },
+  {
+    "Base form": "refly",
+    "Past simple": "reflew",
+    "Past participle": "reflown",
+    "Popular": false
+  },
+  {
+    "Base form": "refreeze",
+    "Past simple": "refroze",
+    "Past participle": "refrozen",
+    "Popular": false
+  },
+  {
+    "Base form": "regive",
+    "Past simple": "regave",
+    "Past participle": "regiven",
+    "Popular": false
+  },
+  {
+    "Base form": "regrow",
+    "Past simple": "regrew",
+    "Past participle": "regrown",
+    "Popular": false
+  },
+  {
+    "Base form": "rehear",
+    "Past simple": "reheard",
+    "Past participle": "reheard",
+    "Popular": true
+  },
+  {
+    "Base form": "rehew",
+    "Past simple": "rehewed",
+    "Past participle": "rehewn",
+    "Popular": false
+  },
+  {
+    "Base form": "rehide",
+    "Past simple": "rehid",
+    "Past participle": "rehidden",
+    "Popular": false
+  },
+  {
+    "Base form": "relay",
+    "Past simple": "relaid",
+    "Past participle": "relaid",
+    "Popular": true
+  },
+  {
+    "Base form": "remake",
+    "Past simple": "remade",
+    "Past participle": "remade",
+    "Popular": true
+  },
+  {
+    "Base form": "rend",
+    "Past simple": "rent",
+    "Past participle": "rent",
+    "Popular": true
+  },
+  {
+    "Base form": "repay",
+    "Past simple": "repaid",
+    "Past participle": "repaid",
+    "Popular": true
+  },
+  {
+    "Base form": "rerun",
+    "Past simple": "reran",
+    "Past participle": "rerun",
+    "Popular": true
+  },
+  {
+    "Base form": "resaw",
+    "Past simple": "resawed",
+    "Past participle": "resawn",
+    "Popular": false
+  },
+  {
+    "Base form": "resee",
+    "Past simple": "resaw",
+    "Past participle": "reseen",
+    "Popular": false
+  },
+  {
+    "Base form": "resell",
+    "Past simple": "resold",
+    "Past participle": "resold",
+    "Popular": true
+  },
+  {
+    "Base form": "reset",
+    "Past simple": "reset",
+    "Past participle": "reset",
+    "Popular": true
+  },
+  {
+    "Base form": "resew",
+    "Past simple": "resewed",
+    "Past participle": "resewn",
+    "Popular": false
+  },
+  {
+    "Base form": "resit",
+    "Past simple": "resat",
+    "Past participle": "resat",
+    "Popular": true
+  },
+  {
+    "Base form": "reshake",
+    "Past simple": "reshook",
+    "Past participle": "reshaken",
+    "Popular": false
+  },
+  {
+    "Base form": "resow",
+    "Past simple": "resowed",
+    "Past participle": "resown",
+    "Popular": false
+  },
+  {
+    "Base form": "respeak",
+    "Past simple": "respoke",
+    "Past participle": "respoken",
+    "Popular": false
+  },
+  {
+    "Base form": "restrike",
+    "Past simple": "restruck",
+    "Past participle": "restruck, restricken",
+    "Popular": false
+  },
+  {
+    "Base form": "restrive",
+    "Past simple": "restrove",
+    "Past participle": "restriven",
+    "Popular": false
+  },
+  {
+    "Base form": "reswear",
+    "Past simple": "reswore",
+    "Past participle": "restriven",
+    "Popular": false
+  },
+  {
+    "Base form": "retake",
+    "Past simple": "retook",
+    "Past participle": "retaken",
+    "Popular": true
+  },
+  {
+    "Base form": "retear",
+    "Past simple": "retore",
+    "Past participle": "retorn",
+    "Popular": false
+  },
+  {
+    "Base form": "retell",
+    "Past simple": "retold",
+    "Past participle": "retold",
+    "Popular": true
+  },
+  {
+    "Base form": "rethrow",
+    "Past simple": "rethrew",
+    "Past participle": "rethrown",
+    "Popular": false
+  },
+  {
+    "Base form": "rewake",
+    "Past simple": "rewoke",
+    "Past participle": "rewoken)",
+    "Popular": false
+  },
+  {
+    "Base form": "reweave",
+    "Past simple": "rewove",
+    "Past participle": "rewoven",
+    "Popular": false
+  },
+  {
+    "Base form": "rewrite",
+    "Past simple": "rewrote",
+    "Past participle": "rewritten",
+    "Popular": true
+  },
+  {
+    "Base form": "rid",
+    "Past simple": "rid, ridded",
+    "Past participle": "rid, ridden",
+    "Popular": true
+  },
+  {
+    "Base form": "ride",
+    "Past simple": "rode",
+    "Past participle": "ridden",
+    "Popular": true
+  },
+  {
+    "Base form": "rin",
+    "Past simple": "ran",
+    "Past participle": "run",
+    "Popular": false
+  },
+  {
+    "Base form": "ring",
+    "Past simple": "rang",
+    "Past participle": "rung",
+    "Popular": true
+  },
+  {
+    "Base form": "rise",
+    "Past simple": "rose",
+    "Past participle": "risen",
+    "Popular": true
+  },
+  {
+    "Base form": "rive",
+    "Past simple": "rived, rove",
+    "Past participle": "rive",
+    "Popular": true
+  },
+  {
+    "Base form": "roadshow",
+    "Past simple": "roadshowed",
+    "Past participle": "roadshown",
+    "Popular": false
+  },
+  {
+    "Base form": "rough-hew",
+    "Past simple": "rough-hewed",
+    "Past participle": "rough-hewn",
+    "Popular": false
+  },
+  {
+    "Base form": "roughhew",
+    "Past simple": "roughhewed",
+    "Past participle": "roughhewed, roughhewn",
+    "Popular": false
+  },
+  {
+    "Base form": "run",
+    "Past simple": "ran",
+    "Past participle": "run",
+    "Popular": true
+  },
+  {
+    "Base form": "Satanize",
+    "Past simple": "Satanized",
+    "Past participle": "Satanizing",
+    "Popular": false
+  },
+  {
+    "Base form": "saw",
+    "Past simple": "sawed",
+    "Past participle": "sawed, sawn",
+    "Popular": true
+  },
+  {
+    "Base form": "say",
+    "Past simple": "said",
+    "Past participle": "said",
+    "Popular": true
+  },
+  {
+    "Base form": "see",
+    "Past simple": "saw",
+    "Past participle": "seen",
+    "Popular": true
+  },
+  {
+    "Base form": "seek",
+    "Past simple": "sought",
+    "Past participle": "sought",
+    "Popular": true
+  },
+  {
+    "Base form": "seethe",
+    "Past simple": "seethed, sod",
+    "Past participle": "seethed, sodden",
+    "Popular": false
+  },
+  {
+    "Base form": "sell",
+    "Past simple": "sold",
+    "Past participle": "sold",
+    "Popular": true
+  },
+  {
+    "Base form": "send",
+    "Past simple": "sent",
+    "Past participle": "sent",
+    "Popular": true
+  },
+  {
+    "Base form": "set",
+    "Past simple": "set",
+    "Past participle": "set",
+    "Popular": true
+  },
+  {
+    "Base form": "sew",
+    "Past simple": "sewed",
+    "Past participle": "sewed, sewn",
+    "Popular": true
+  },
+  {
+    "Base form": "shake",
+    "Past simple": "shook",
+    "Past participle": "shaken",
+    "Popular": true
+  },
+  {
+    "Base form": "shall",
+    "Past simple": "should",
+    "Past participle": false,
+    "Popular": false
+  },
+  {
+    "Base form": "shape",
+    "Past simple": "shaped, shope",
+    "Past participle": "shaped, shapen",
+    "Popular": true
+  },
+  {
+    "Base form": "shave",
+    "Past simple": "shaved, shove",
+    "Past participle": "shaved, shaven",
+    "Popular": true
+  },
+  {
+    "Base form": "shear",
+    "Past simple": "sheared, shore",
+    "Past participle": "shorn, sheared",
+    "Popular": true
+  },
+  {
+    "Base form": "shed",
+    "Past simple": "shed",
+    "Past participle": "shed",
+    "Popular": true
+  },
+  {
+    "Base form": "shew",
+    "Past simple": "shewed",
+    "Past participle": "shewed, shewn",
+    "Popular": false
+  },
+  {
+    "Base form": "shine",
+    "Past simple": "shone",
+    "Past participle": "shone",
+    "Popular": true
+  },
+  {
+    "Base form": "shit",
+    "Past simple": "shit, shitted, shat",
+    "Past participle": "shit, shitted, shat, shitten",
+    "Popular": false
+  },
+  {
+    "Base form": "shoe",
+    "Past simple": "shod, shoed",
+    "Past participle": "shodden, shod, shoed",
+    "Popular": true
+  },
+  {
+    "Base form": "shoot",
+    "Past simple": "shot",
+    "Past participle": "shot, shotten",
+    "Popular": true
+  },
+  {
+    "Base form": "show",
+    "Past simple": "showed",
+    "Past participle": "shown, showed",
+    "Popular": true
+  },
+  {
+    "Base form": "showrun",
+    "Past simple": "showran",
+    "Past participle": "showrun",
+    "Popular": false
+  },
+  {
+    "Base form": "shred",
+    "Past simple": "shredded",
+    "Past participle": "shredded, shred",
+    "Popular": true
+  },
+  {
+    "Base form": "shrieve",
+    "Past simple": "shrieved",
+    "Past participle": "shrieved, shriven",
+    "Popular": false
+  },
+  {
+    "Base form": "shrink",
+    "Past simple": "shrank, shrunk",
+    "Past participle": "shrunk, shrunken",
+    "Popular": true
+  },
+  {
+    "Base form": "shrive",
+    "Past simple": "shrived, shrove",
+    "Past participle": "shrived, shriven",
+    "Popular": true
+  },
+  {
+    "Base form": "shut",
+    "Past simple": "shut",
+    "Past participle": "shut",
+    "Popular": true
+  },
+  {
+    "Base form": "sightsee",
+    "Past simple": "sightsaw",
+    "Past participle": "sightseen",
+    "Popular": true
+  },
+  {
+    "Base form": "sing",
+    "Past simple": "sang",
+    "Past participle": "sung, sungen",
+    "Popular": true
+  },
+  {
+    "Base form": "sink",
+    "Past simple": "sank",
+    "Past participle": "sunk, sunken",
+    "Popular": true
+  },
+  {
+    "Base form": "sit",
+    "Past simple": "sat",
+    "Past participle": "sitten, sat",
+    "Popular": true
+  },
+  {
+    "Base form": "slay",
+    "Past simple": "slew, slayed",
+    "Past participle": "slain, slayed",
+    "Popular": true
+  },
+  {
+    "Base form": "sleep",
+    "Past simple": "slept",
+    "Past participle": "slept",
+    "Popular": true
+  },
+  {
+    "Base form": "slide",
+    "Past simple": "slid",
+    "Past participle": "slid",
+    "Popular": true
+  },
+  {
+    "Base form": "sling",
+    "Past simple": "slung, slang",
+    "Past participle": "slung",
+    "Popular": true
+  },
+  {
+    "Base form": "slink",
+    "Past simple": "slunk",
+    "Past participle": "slunk",
+    "Popular": true
+  },
+  {
+    "Base form": "slingshoot",
+    "Past simple": "slingshot",
+    "Past participle": "slingshotten",
+    "Popular": false
+  },
+  {
+    "Base form": "slit",
+    "Past simple": "slit",
+    "Past participle": "slit, slitten",
+    "Popular": true
+  },
+  {
+    "Base form": "slite",
+    "Past simple": "slit, slote, slited",
+    "Past participle": "slit, slitten, slited",
+    "Popular": false
+  },
+  {
+    "Base form": "smart",
+    "Past simple": "smarted, smort",
+    "Past participle": "smarted, smorten",
+    "Popular": true
+  },
+  {
+    "Base form": "smell",
+    "Past simple": "smelt",
+    "Past participle": "smelt",
+    "Popular": true
+  },
+  {
+    "Base form": "smite",
+    "Past simple": "smote, smit",
+    "Past participle": "smitten, smited",
+    "Popular": true
+  },
+  {
+    "Base form": "sneeze",
+    "Past simple": "sneezed, snoze",
+    "Past participle": "sneezed, snozen",
+    "Popular": true
+  },
+  {
+    "Base form": "snow",
+    "Past simple": "snowed, snew",
+    "Past participle": "snowed, snown",
+    "Popular": true
+  },
+  {
+    "Base form": "sow",
+    "Past simple": "sowed",
+    "Past participle": "sown",
+    "Popular": true
+  },
+  {
+    "Base form": "speak",
+    "Past simple": "spoke, spake",
+    "Past participle": "spoken",
+    "Popular": true
+  },
+  {
+    "Base form": "speed",
+    "Past simple": "sped",
+    "Past participle": "sped",
+    "Popular": true
+  },
+  {
+    "Base form": "speedrun",
+    "Past simple": "speedran",
+    "Past participle": "speedrun",
+    "Popular": false
+  },
+  {
+    "Base form": "spell",
+    "Past simple": "spelt",
+    "Past participle": "spelt",
+    "Popular": true
+  },
+  {
+    "Base form": "spend",
+    "Past simple": "spent",
+    "Past participle": "spent",
+    "Popular": true
+  },
+  {
+    "Base form": "spin",
+    "Past simple": "spun, span",
+    "Past participle": "spun",
+    "Popular": true
+  },
+  {
+    "Base form": "spill",
+    "Past simple": "spilt, spilled",
+    "Past participle": "spilt, spilled",
+    "Popular": true
+  },
+  {
+    "Base form": "spit",
+    "Past simple": "spat, spit",
+    "Past participle": "spat, spit",
+    "Popular": true
+  },
+  {
+    "Base form": "split",
+    "Past simple": "split",
+    "Past participle": "split",
+    "Popular": true
+  },
+  {
+    "Base form": "spring",
+    "Past simple": "sprang, sprung",
+    "Past participle": "sprung",
+    "Popular": true
+  },
+  {
+    "Base form": "sprint",
+    "Past simple": "sprinted, sprant",
+    "Past participle": "sprinted, sprunt",
+    "Popular": true
+  },
+  {
+    "Base form": "spoil",
+    "Past simple": "spoilt",
+    "Past participle": "spoilt",
+    "Popular": true
+  },
+  {
+    "Base form": "spotlight",
+    "Past simple": "spotlit, spotlighted",
+    "Past participle": "spotlit, spotlighted",
+    "Popular": true
+  },
+  {
+    "Base form": "spread",
+    "Past simple": "spread",
+    "Past participle": "spread",
+    "Popular": true
+  },
+  {
+    "Base form": "stave",
+    "Past simple": "staved, stove",
+    "Past participle": "staved, stove",
+    "Popular": true
+  },
+  {
+    "Base form": "stand",
+    "Past simple": "stood",
+    "Past participle": "stood",
+    "Popular": true
+  },
+  {
+    "Base form": "starve",
+    "Past simple": "starved, starf, storve",
+    "Past participle": "starved, storven",
+    "Popular": true
+  },
+  {
+    "Base form": "steal",
+    "Past simple": "stole",
+    "Past participle": "stolen",
+    "Popular": true
+  },
+  {
+    "Base form": "step",
+    "Past simple": "stepped, stept, stope",
+    "Past participle": "stepped, stept, stopen",
+    "Popular": true
+  },
+  {
+    "Base form": "stick",
+    "Past simple": "stuck",
+    "Past participle": "stuck",
+    "Popular": true
+  },
+  {
+    "Base form": "sting",
+    "Past simple": "stung, stang",
+    "Past participle": "stung",
+    "Popular": true
+  },
+  {
+    "Base form": "stink",
+    "Past simple": "stank, stunk",
+    "Past participle": "stunk",
+    "Popular": true
+  },
+  {
+    "Base form": "strew",
+    "Past simple": "strewed",
+    "Past participle": "strewn, strewed",
+    "Popular": true
+  },
+  {
+    "Base form": "stride",
+    "Past simple": "strode",
+    "Past participle": "stridden, strode, strid",
+    "Popular": false
+  },
+  {
+    "Base form": "strike",
+    "Past simple": "struck",
+    "Past participle": "struck, stricken",
+    "Popular": true
+  },
+  {
+    "Base form": "strikethrough",
+    "Past simple": "struckthrough",
+    "Past participle": "strickenthrough",
+    "Popular": false
+  },
+  {
+    "Base form": "string",
+    "Past simple": "strung",
+    "Past participle": "strung",
+    "Popular": true
+  },
+  {
+    "Base form": "strive",
+    "Past simple": "strove, strived",
+    "Past participle": "striven, strived",
+    "Popular": true
+  },
+  {
+    "Base form": "strew",
+    "Past simple": "strewed",
+    "Past participle": "strewed, strewn",
+    "Popular": true
+  },
+  {
+    "Base form": "strow",
+    "Past simple": "strowed",
+    "Past participle": "strown",
+    "Popular": false
+  },
+  {
+    "Base form": "sublet",
+    "Past simple": "sublet",
+    "Past participle": "sublet",
+    "Popular": true
+  },
+  {
+    "Base form": "superlie",
+    "Past simple": "superlay",
+    "Past participle": "superlain",
+    "Popular": false
+  },
+  {
+    "Base form": "surbeat",
+    "Past simple": "surbeated",
+    "Past participle": "surbeaten",
+    "Popular": false
+  },
+  {
+    "Base form": "sweare",
+    "Past simple": "swore",
+    "Past participle": "sworne",
+    "Popular": false
+  },
+  {
+    "Base form": "swear",
+    "Past simple": "swore",
+    "Past participle": "sworn",
+    "Popular": true
+  },
+  {
+    "Base form": "sweat",
+    "Past simple": "sweat, sweated",
+    "Past participle": "sweat, sweated",
+    "Popular": true
+  },
+  {
+    "Base form": "swell",
+    "Past simple": "swelled",
+    "Past participle": "swollen, swelled",
+    "Popular": true
+  },
+  {
+    "Base form": "sweep",
+    "Past simple": "swept",
+    "Past participle": "swept",
+    "Popular": true
+  },
+  {
+    "Base form": "swike",
+    "Past simple": "swoke",
+    "Past participle": "swicken",
+    "Popular": ""
+  },
+  {
+    "Base form": "swim",
+    "Past simple": "swam, swum",
+    "Past participle": "swum",
+    "Popular": true
+  },
+  {
+    "Base form": "swing",
+    "Past simple": "swang, swung",
+    "Past participle": "swung, swungen",
+    "Popular": true
+  },
+  {
+    "Base form": "swink",
+    "Past simple": "swank, swonk, swinkt, swinked",
+    "Past participle": "swunk, swunken, swonken, swinkt, swinked",
+    "Popular": false
+  },
+  {
+    "Base form": "take",
+    "Past simple": "took",
+    "Past participle": "taken",
+    "Popular": true
+  },
+  {
+    "Base form": "talebear",
+    "Past simple": "talebore",
+    "Past participle": "taleborne",
+    "Popular": false
+  },
+  {
+    "Base form": "tattoo",
+    "Past simple": "tattooed",
+    "Past participle": "tattoed",
+    "Popular": true
+  },
+  {
+    "Base form": "teach",
+    "Past simple": "taught",
+    "Past participle": "taught",
+    "Popular": true
+  },
+  {
+    "Base form": "tear",
+    "Past simple": "tore",
+    "Past participle": "torn",
+    "Popular": true
+  },
+  {
+    "Base form": "tell",
+    "Past simple": "told",
+    "Past participle": "told",
+    "Popular": true
+  },
+  {
+    "Base form": "test-drive",
+    "Past simple": "test-drove",
+    "Past participle": "test-driven",
+    "Popular": true
+  },
+  {
+    "Base form": "test-fly",
+    "Past simple": "test-flew",
+    "Past participle": "test-flown",
+    "Popular": false
+  },
+  {
+    "Base form": "thanksgive",
+    "Past simple": "thanksgave",
+    "Past participle": "thanksgiven",
+    "Popular": true
+  },
+  {
+    "Base form": "tharf",
+    "Past simple": "thurft, tharved",
+    "Past participle": "thurft, tharved",
+    "Popular": false
+  },
+  {
+    "Base form": "think",
+    "Past simple": "thought",
+    "Past participle": "thought",
+    "Popular": true
+  },
+  {
+    "Base form": "thoroughgo",
+    "Past simple": "thoroughwent",
+    "Past participle": "thoroughgone",
+    "Popular": false
+  },
+  {
+    "Base form": "thread",
+    "Past simple": "threaded, thrid",
+    "Past participle": "threaded, thridden",
+    "Popular": true
+  },
+  {
+    "Base form": "thring",
+    "Past simple": "thrang",
+    "Past participle": "thrung",
+    "Popular": false
+  },
+  {
+    "Base form": "thrive",
+    "Past simple": "throve, thrived",
+    "Past participle": "thriven, thrived",
+    "Popular": true
+  },
+  {
+    "Base form": "throw",
+    "Past simple": "threw",
+    "Past participle": "thrown",
+    "Popular": true
+  },
+  {
+    "Base form": "thrust",
+    "Past simple": "thrust",
+    "Past participle": "thrust",
+    "Popular": true
+  },
+  {
+    "Base form": "thunderstrike",
+    "Past simple": "thunderstruck",
+    "Past participle": "thunderstricken",
+    "Popular": false
+  },
+  {
+    "Base form": "tobeat",
+    "Past simple": "tobeat",
+    "Past participle": "tobeaten",
+    "Popular": false
+  },
+  {
+    "Base form": "tobreak",
+    "Past simple": "tobroke",
+    "Past participle": "tobroken",
+    "Popular": false
+  },
+  {
+    "Base form": "toburst",
+    "Past simple": "toburst",
+    "Past participle": "toburst, tobursten",
+    "Popular": false
+  },
+  {
+    "Base form": "tocleave",
+    "Past simple": "toclove, tocleft, tocleaved",
+    "Past participle": "tocloven, tocleft, tocleaved",
+    "Popular": false
+  },
+  {
+    "Base form": "todraw",
+    "Past simple": "todrew",
+    "Past participle": "todrawn",
+    "Popular": false
+  },
+  {
+    "Base form": "todrive",
+    "Past simple": "todrove",
+    "Past participle": "todriven",
+    "Popular": false
+  },
+  {
+    "Base form": "togo",
+    "Past simple": "towent",
+    "Past participle": "togone",
+    "Popular": false
+  },
+  {
+    "Base form": "tohew",
+    "Past simple": "tohewed",
+    "Past participle": "tohewn",
+    "Popular": false
+  },
+  {
+    "Base form": "tole",
+    "Past simple": "toled",
+    "Past participle": "toled, tollen",
+    "Popular": false
+  },
+  {
+    "Base form": "toshake",
+    "Past simple": "toshook",
+    "Past participle": "toshaken",
+    "Popular": false
+  },
+  {
+    "Base form": "toshear",
+    "Past simple": "toshore",
+    "Past participle": "toshorn",
+    "Popular": false
+  },
+  {
+    "Base form": "toswink",
+    "Past simple": "toswank",
+    "Past participle": "toswunk, toswunken",
+    "Popular": false
+  },
+  {
+    "Base form": "totear",
+    "Past simple": "totore",
+    "Past participle": "totorn",
+    "Popular": false
+  },
+  {
+    "Base form": "totread",
+    "Past simple": "totrod",
+    "Past participle": "totrodden",
+    "Popular": false
+  },
+  {
+    "Base form": "tred",
+    "Past simple": "trod",
+    "Past participle": "trod, trodden",
+    "Popular": true
+  },
+  {
+    "Base form": "tweet",
+    "Past simple": "tweeted, twote",
+    "Past participle": "tweeted, twoten",
+    "Popular": true
+  },
+  {
+    "Base form": "tyek",
+    "Past simple": "took",
+    "Past participle": "tyeken",
+    "Popular": false
+  },
+  {
+    "Base form": "typeset",
+    "Past simple": "typeset",
+    "Past participle": "typeset",
+    "Popular": true
+  },
+  {
+    "Base form": "typewrite",
+    "Past simple": "typewrote",
+    "Past participle": "typewritten",
+    "Popular": false
+  },
+  {
+    "Base form": "umbedraw",
+    "Past simple": "umbedrew",
+    "Past participle": "umbedrawn",
+    "Popular": false
+  },
+  {
+    "Base form": "umbego",
+    "Past simple": "umbewent",
+    "Past participle": "umbegone",
+    "Popular": false
+  },
+  {
+    "Base form": "umbeset",
+    "Past simple": "umbeset",
+    "Past participle": "umbeset, umbesetten",
+    "Popular": false
+  },
+  {
+    "Base form": "un-break",
+    "Past simple": "un-broke",
+    "Past participle": "un-broken",
+    "Popular": false
+  },
+  {
+    "Base form": "unbear",
+    "Past simple": "unbore",
+    "Past participle": "unborne",
+    "Popular": false
+  },
+  {
+    "Base form": "unbecome",
+    "Past simple": "unbecame",
+    "Past participle": "unbecome",
+    "Popular": false
+  },
+  {
+    "Base form": "unbend",
+    "Past simple": "unbent",
+    "Past participle": "unbent",
+    "Popular": true
+  },
+  {
+    "Base form": "unbespeak",
+    "Past simple": "unbespoke",
+    "Past participle": "unbespoken",
+    "Popular": false
+  },
+  {
+    "Base form": "unbid",
+    "Past simple": "unbid",
+    "Past participle": "unbid, unbidden",
+    "Popular": false
+  },
+  {
+    "Base form": "unbind",
+    "Past simple": "unbound",
+    "Past participle": "unbound, unbounden",
+    "Popular": false
+  },
+  {
+    "Base form": "unbreak",
+    "Past simple": "unbroke",
+    "Past participle": "unbroken",
+    "Popular": true
+  },
+  {
+    "Base form": "unchoose",
+    "Past simple": "unchose",
+    "Past participle": "unchosen",
+    "Popular": false
+  },
+  {
+    "Base form": "underbear",
+    "Past simple": "underbore, underbare",
+    "Past participle": "underborne",
+    "Popular": false
+  },
+  {
+    "Base form": "underbid",
+    "Past simple": "underbid",
+    "Past participle": "underbid",
+    "Popular": true
+  },
+  {
+    "Base form": "undercome",
+    "Past simple": "undercame",
+    "Past participle": "undercome",
+    "Popular": false
+  },
+  {
+    "Base form": "undercreep",
+    "Past simple": "undercrept, undercrope",
+    "Past participle": "undercrept, undercropen",
+    "Popular": false
+  },
+  {
+    "Base form": "undercut",
+    "Past simple": "undercut",
+    "Past participle": "undercut",
+    "Popular": true
+  },
+  {
+    "Base form": "underdelve",
+    "Past simple": "underdelved, underdolve",
+    "Past participle": "underdelved, underdolven",
+    "Popular": false
+  },
+  {
+    "Base form": "underdo",
+    "Past simple": "underdid",
+    "Past participle": "underdone",
+    "Popular": false
+  },
+  {
+    "Base form": "underdraw",
+    "Past simple": "underdrew",
+    "Past participle": "underdrawn",
+    "Popular": false
+  },
+  {
+    "Base form": "undereat",
+    "Past simple": "underate",
+    "Past participle": "undereaten",
+    "Popular": false
+  },
+  {
+    "Base form": "underget",
+    "Past simple": "undergot",
+    "Past participle": "undergotten",
+    "Popular": false
+  },
+  {
+    "Base form": "undergo",
+    "Past simple": "underwent",
+    "Past participle": "undergone",
+    "Popular": true
+  },
+  {
+    "Base form": "undergoe",
+    "Past simple": "underwent",
+    "Past participle": "undergone",
+    "Popular": false
+  },
+  {
+    "Base form": "undergrow",
+    "Past simple": "undergrew",
+    "Past participle": "undergrown",
+    "Popular": false
+  },
+  {
+    "Base form": "underhold",
+    "Past simple": "underheld",
+    "Past participle": "underheld, underholden",
+    "Popular": false
+  },
+  {
+    "Base form": "underlie",
+    "Past simple": "underlay",
+    "Past participle": "underlain",
+    "Popular": true
+  },
+  {
+    "Base form": "underly",
+    "Past simple": "underlay",
+    "Past participle": "underlain",
+    "Popular": false
+  },
+  {
+    "Base form": "undernim",
+    "Past simple": "undernimmed, undernam",
+    "Past participle": "undernimmed, undernum, undernome, undernomen",
+    "Popular": false
+  },
+  {
+    "Base form": "underpay",
+    "Past simple": "underpaid",
+    "Past participle": "underpaid",
+    "Popular": true
+  },
+  {
+    "Base form": "underrun",
+    "Past simple": "underran",
+    "Past participle": "underrun",
+    "Popular": false
+  },
+  {
+    "Base form": "undersee",
+    "Past simple": "undersaw",
+    "Past participle": "underseen",
+    "Popular": false
+  },
+  {
+    "Base form": "undersell",
+    "Past simple": "undersold",
+    "Past participle": "undersold",
+    "Popular": true
+  },
+  {
+    "Base form": "undersow",
+    "Past simple": "undersowed",
+    "Past participle": "undersown",
+    "Popular": false
+  },
+  {
+    "Base form": "understand",
+    "Past simple": "understood",
+    "Past participle": "understood",
+    "Popular": true
+  },
+  {
+    "Base form": "undertake",
+    "Past simple": "undertook",
+    "Past participle": "undertaken",
+    "Popular": true
+  },
+  {
+    "Base form": "underthrow",
+    "Past simple": "underthrew",
+    "Past participle": "underthrown",
+    "Popular": false
+  },
+  {
+    "Base form": "underwrite",
+    "Past simple": "underwrote",
+    "Past participle": "underwritten",
+    "Popular": true
+  },
+  {
+    "Base form": "undo",
+    "Past simple": "undid",
+    "Past participle": "undone",
+    "Popular": true
+  },
+  {
+    "Base form": "undraw",
+    "Past simple": "undrew",
+    "Past participle": "undrawn",
+    "Popular": false
+  },
+  {
+    "Base form": "unfreeze",
+    "Past simple": "unfroze",
+    "Past participle": "unfrozen",
+    "Popular": true
+  },
+  {
+    "Base form": "ungive",
+    "Past simple": "ungave",
+    "Past participle": "ungiven",
+    "Popular": false
+  },
+  {
+    "Base form": "unhelp",
+    "Past simple": "unholp, unhelped",
+    "Past participle": "unholpen, unhelped",
+    "Popular": false
+  },
+  {
+    "Base form": "unhide",
+    "Past simple": "unhid",
+    "Past participle": "unhidden",
+    "Popular": false
+  },
+  {
+    "Base form": "unknow",
+    "Past simple": "unknew",
+    "Past participle": "unknown",
+    "Popular": false
+  },
+  {
+    "Base form": "unlade",
+    "Past simple": "unladed",
+    "Past participle": "unladen",
+    "Popular": false
+  },
+  {
+    "Base form": "unsay",
+    "Past simple": "unsaid",
+    "Past participle": "unsaid",
+    "Popular": true
+  },
+  {
+    "Base form": "unsee",
+    "Past simple": "unsaw",
+    "Past participle": "unseen",
+    "Popular": false
+  },
+  {
+    "Base form": "unsew",
+    "Past simple": "unsewed",
+    "Past participle": "unsewn",
+    "Popular": false
+  },
+  {
+    "Base form": "unshape",
+    "Past simple": "unshaped, unshope",
+    "Past participle": "unshaped, unshapen",
+    "Popular": false
+  },
+  {
+    "Base form": "unspeak",
+    "Past simple": "unspoke",
+    "Past participle": "unspoken",
+    "Popular": false
+  },
+  {
+    "Base form": "unswear",
+    "Past simple": "unswore",
+    "Past participle": "unsworn",
+    "Popular": false
+  },
+  {
+    "Base form": "unswell",
+    "Past simple": "unswelled",
+    "Past participle": "unswollen",
+    "Popular": false
+  },
+  {
+    "Base form": "unweave",
+    "Past simple": "unwove",
+    "Past participle": "unwoven",
+    "Popular": false
+  },
+  {
+    "Base form": "unwind",
+    "Past simple": "unwound",
+    "Past participle": "unwound",
+    "Popular": true
+  },
+  {
+    "Base form": "unwrite",
+    "Past simple": "unwrote",
+    "Past participle": "unwritten",
+    "Popular": false
+  },
+  {
+    "Base form": "upbear",
+    "Past simple": "upbore",
+    "Past participle": "upborne, upbore",
+    "Popular": false
+  },
+  {
+    "Base form": "upblow",
+    "Past simple": "upblew",
+    "Past participle": "upblown",
+    "Popular": false
+  },
+  {
+    "Base form": "upbreak",
+    "Past simple": "upbroke",
+    "Past participle": "upbroken",
+    "Popular": false
+  },
+  {
+    "Base form": "upcome",
+    "Past simple": "upcame",
+    "Past participle": "upcome",
+    "Popular": false
+  },
+  {
+    "Base form": "updraw",
+    "Past simple": "updrew",
+    "Past participle": "updrawn",
+    "Popular": false
+  },
+  {
+    "Base form": "upgive",
+    "Past simple": "upgave",
+    "Past participle": "upgiven",
+    "Popular": false
+  },
+  {
+    "Base form": "upgrow",
+    "Past simple": "upgrew",
+    "Past participle": "upgrown",
+    "Popular": false
+  },
+  {
+    "Base form": "upheave",
+    "Past simple": "upheaved, uphove",
+    "Past participle": "upheaved, uphoven",
+    "Popular": false
+  },
+  {
+    "Base form": "uphold",
+    "Past simple": "upheld",
+    "Past participle": "upheld, archaic upholden",
+    "Popular": true
+  },
+  {
+    "Base form": "upleap",
+    "Past simple": "upleaped, upleapt, uplept, uplope",
+    "Past participle": "upleaped, upleapt, uplopen",
+    "Popular": false
+  },
+  {
+    "Base form": "uprise",
+    "Past simple": "uprose",
+    "Past participle": "uprisen",
+    "Popular": false
+  },
+  {
+    "Base form": "uprun",
+    "Past simple": "upran",
+    "Past participle": "uprun",
+    "Popular": false
+  },
+  {
+    "Base form": "upspeak",
+    "Past simple": "upspoke",
+    "Past participle": "upspoken",
+    "Popular": false
+  },
+  {
+    "Base form": "upspring",
+    "Past simple": "upsprang, upsprung",
+    "Past participle": "upsprung",
+    "Popular": false
+  },
+  {
+    "Base form": "upset",
+    "Past simple": "upset",
+    "Past participle": "upset",
+    "Popular": true
+  },
+  {
+    "Base form": "upswell",
+    "Past simple": "upswelled",
+    "Past participle": "upswelled, upswollen",
+    "Popular": false
+  },
+  {
+    "Base form": "uptear",
+    "Past simple": "uptore",
+    "Past participle": "uptorn",
+    "Popular": false
+  },
+  {
+    "Base form": "upthrow",
+    "Past simple": "upthrew",
+    "Past participle": "upthrown",
+    "Popular": false
+  },
+  {
+    "Base form": "wake",
+    "Past simple": "woke, waked",
+    "Past participle": "woken, waked",
+    "Popular": true
+  },
+  {
+    "Base form": "war-drive",
+    "Past simple": "war-drove",
+    "Past participle": "war-driven",
+    "Popular": false
+  },
+  {
+    "Base form": "wardrive",
+    "Past simple": "wardrove",
+    "Past participle": "wardriven",
+    "Popular": false
+  },
+  {
+    "Base form": "waylay",
+    "Past simple": "waylaid",
+    "Past participle": "waylaid",
+    "Popular": true
+  },
+  {
+    "Base form": "wayfare",
+    "Past simple": "wayfore, wayfared",
+    "Past participle": "wayfaren, wayfared",
+    "Popular": false
+  },
+  {
+    "Base form": "wear",
+    "Past simple": "weared, wore",
+    "Past participle": "weared, worn",
+    "Popular": true
+  },
+  {
+    "Base form": "weave",
+    "Past simple": "wove, weaved",
+    "Past participle": "woven, weaved",
+    "Popular": true
+  },
+  {
+    "Base form": "wed",
+    "Past simple": "wed, wedden",
+    "Past participle": "wed, wedden",
+    "Popular": true
+  },
+  {
+    "Base form": "weep",
+    "Past simple": "wept",
+    "Past participle": "wept",
+    "Popular": true
+  },
+  {
+    "Base form": "wet",
+    "Past simple": "wet, wetted",
+    "Past participle": "wet, wetted",
+    "Popular": true
+  },
+  {
+    "Base form": "will",
+    "Past simple": "willed, would",
+    "Past participle": "willed",
+    "Popular": true
+  },
+  {
+    "Base form": "win ",
+    "Past simple": "won",
+    "Past participle": "won",
+    "Popular": true
+  },
+  {
+    "Base form": "wind",
+    "Past simple": "wound",
+    "Past participle": "wound",
+    "Popular": true
+  },
+  {
+    "Base form": "wind-break",
+    "Past simple": "wind-broke",
+    "Past participle": "wind-broken",
+    "Popular": false
+  },
+  {
+    "Base form": "wiredraw",
+    "Past simple": "wiredrew",
+    "Past participle": "wiredrawn",
+    "Popular": false
+  },
+  {
+    "Base form": "wis",
+    "Past simple": false,
+    "Past participle": "wist, wissed",
+    "Popular": false
+  },
+  {
+    "Base form": "withbear",
+    "Past simple": "withbore",
+    "Past participle": "withborne",
+    "Popular": false
+  },
+  {
+    "Base form": "withdraw",
+    "Past simple": "withdrew",
+    "Past participle": "withdrawn",
+    "Popular": true
+  },
+  {
+    "Base form": "withdrive",
+    "Past simple": "withdrove",
+    "Past participle": "withdriven",
+    "Popular": false
+  },
+  {
+    "Base form": "withgo",
+    "Past simple": "withwent",
+    "Past participle": "withgone",
+    "Popular": false
+  },
+  {
+    "Base form": "withhold",
+    "Past simple": "withheld",
+    "Past participle": "withheld, withholden",
+    "Popular": true
+  },
+  {
+    "Base form": "withsake",
+    "Past simple": "withsook",
+    "Past participle": "withsaken",
+    "Popular": false
+  },
+  {
+    "Base form": "withsit",
+    "Past simple": "withsat",
+    "Past participle": "withsat, withsitten",
+    "Popular": false
+  },
+  {
+    "Base form": "withspeak",
+    "Past simple": "withspoke",
+    "Past participle": "withspoken",
+    "Popular": false
+  },
+  {
+    "Base form": "withstand",
+    "Past simple": "withstood",
+    "Past participle": "withstood",
+    "Popular": true
+  },
+  {
+    "Base form": "withtake",
+    "Past simple": "withtook",
+    "Past participle": "withtaken",
+    "Popular": false
+  },
+  {
+    "Base form": "worth",
+    "Past simple": "worth, worthed",
+    "Past participle": "worth, worthed, worthen",
+    "Popular": false
+  },
+  {
+    "Base form": "work",
+    "Past simple": "worked, wrought",
+    "Past participle": "worked, wrought",
+    "Popular": true
+  },
+  {
+    "Base form": "wreak",
+    "Past simple": "wreaked, wrought, wroke",
+    "Past participle": "wreaked, wrought, wroken",
+    "Popular": false
+  },
+  {
+    "Base form": "wring",
+    "Past simple": "wrang, wrung, wringed",
+    "Past participle": "wrung, wringed",
+    "Popular": true
+  },
+  {
+    "Base form": "write",
+    "Past simple": "wrote,  writ",
+    "Past participle": "written, writ",
+    "Popular": true
+  },
+  {
+    "Base form": "write-off",
+    "Past simple": "wrote-off",
+    "Past participle": "written-off",
+    "Popular": false
+  },
+  {
+    "Base form": "writhe",
+    "Past simple": "writhed, wrothe",
+    "Past participle": "writhed, writhen",
+    "Popular": false
+  },
+  {
+    "Base form": "yield",
+    "Past simple": "yielded, yold",
+    "Past participle": "yielded, yolden",
+    "Popular": true
+  },
+  {
+    "Base form": "yive",
+    "Past simple": "yave",
+    "Past participle": "yiven",
+    "Popular": false
+  }
+]
