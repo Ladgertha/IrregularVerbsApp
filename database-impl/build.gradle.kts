@@ -1,6 +1,7 @@
 plugins {
     id(Plugins.ANDROID_LIBRARY)
     id(Plugins.KOTLIN_ANDROID)
+    id(Plugins.KOTLIN_KAPT)
 }
 
 android {
@@ -28,7 +29,13 @@ android {
 }
 
 dependencies {
+    implementation(Libraries.kotlin)
     implementation(Libraries.appCompat)
+    implementation(Libraries.roomCommon)
+    kapt(Libraries.roomCompiler)
+
+    debugImplementation(Libraries.stetho)
+
     testImplementation(Libraries.jUnit)
     androidTestImplementation(Libraries.androidTestRunner)
     androidTestImplementation(Libraries.androidEspressoCore)

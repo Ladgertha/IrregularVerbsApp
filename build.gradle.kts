@@ -9,3 +9,10 @@ buildscript {
         classpath(BuildScript.kotlin)
     }
 }
+
+allprojects {
+    repositories {
+        google()
+        mavenCentral()
+    }
+}
