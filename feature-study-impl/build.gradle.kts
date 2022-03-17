@@ -28,6 +28,7 @@ android {
 }
 
 dependencies {
+    implementation(Libraries.kotlin)
     implementation(Libraries.appCompat)
     testImplementation(Libraries.jUnit)
     androidTestImplementation(Libraries.androidTestRunner)
