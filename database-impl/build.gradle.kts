@@ -8,6 +8,7 @@ android {
     defaultConfig {
         minSdk = AppMetaData.minSdk
         targetSdk = AppMetaData.targetSdk
+        compileSdk = AppMetaData.compileSdk
 
         testInstrumentationRunner = AppMetaData.testInstrumentationRunner
         consumerProguardFiles(AppMetaData.consumerRules)
@@ -32,6 +33,7 @@ dependencies {
     implementation(Libraries.kotlin)
     implementation(Libraries.appCompat)
     implementation(Libraries.roomCommon)
+    implementation(Libraries.roomRuntime)
     kapt(Libraries.roomCompiler)
 
     debugImplementation(Libraries.stetho)
