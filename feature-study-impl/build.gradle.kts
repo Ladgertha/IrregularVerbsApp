@@ -7,6 +7,7 @@ android {
     defaultConfig {
         minSdk = AppMetaData.minSdk
         targetSdk = AppMetaData.targetSdk
+        compileSdk = AppMetaData.compileSdk
 
         testInstrumentationRunner = AppMetaData.testInstrumentationRunner
         consumerProguardFiles(AppMetaData.consumerRules)

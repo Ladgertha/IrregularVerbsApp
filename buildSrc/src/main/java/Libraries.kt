@@ -21,11 +21,8 @@ object Libraries {
     const val coreKtx = "androidx.core:core-ktx:${Versions.coreKtx}"
     const val androidMaterial = "com.google.android.material:material:${Versions.androidMaterial}"
 
-    const val koin = "org.koin:koin-core:${Versions.koin}"
-    const val koinAndroid = "org.koin:koin-android:${Versions.koin}"
-    const val koinAndroidScope = "org.koin:koin-androidx-scope:${Versions.koin}"
-    const val koinViewModel = "org.koin:koin-androidx-viewmodel:${Versions.koin}"
-    const val koinAndroidFragment = "org.koin:koin-androidx-fragment:${Versions.koin}"
+    const val koin = "io.insert-koin:koin-core:${Versions.koin}"
+    const val koinAndroid = "io.insert-koin:koin-android:${Versions.koin}"
 
     // Room
     const val roomCommon = "androidx.room:room-common:${Versions.room}"

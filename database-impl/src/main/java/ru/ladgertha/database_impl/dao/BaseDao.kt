@@ -1,4 +1,4 @@
-package ru.ladgertha.database_impl
+package ru.ladgertha.database_impl.dao
 
 import androidx.room.Delete
 import androidx.room.Insert

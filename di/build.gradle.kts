@@ -1,19 +1,17 @@
 plugins {
-    id(Plugins.ANDROID_APPLICATION)
+    id(Plugins.ANDROID_LIBRARY)
     id(Plugins.KOTLIN_ANDROID)
+    id(Plugins.KOTLIN_KAPT)
 }
 
 android {
-
     defaultConfig {
-        applicationId = AppMetaData.applicationId
         minSdk = AppMetaData.minSdk
         targetSdk = AppMetaData.targetSdk
         compileSdk = AppMetaData.compileSdk
-        versionCode = AppMetaData.versionCode
-        versionName = AppMetaData.versionName
 
         testInstrumentationRunner = AppMetaData.testInstrumentationRunner
+        consumerProguardFiles(AppMetaData.consumerRules)
     }
 
     buildTypes {
@@ -33,10 +31,6 @@ android {
 
 dependencies {
     implementation(Libraries.kotlin)
-    implementation(project(Modules.di))
-    implementation(Libraries.coreKtx)
-    implementation(Libraries.appCompat)
-    implementation(Libraries.androidMaterial)
-
-    androidTestImplementation(Libraries.androidEspressoCore)
+    implementation(Libraries.koin)
+    implementation(Libraries.koinAndroid)
 }
