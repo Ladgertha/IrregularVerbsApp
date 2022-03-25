@@ -3,6 +3,7 @@ object Versions {
     const val appCompat = "1.4.1"
     const val coreKtx = "1.7.0"
     const val androidMaterial = "1.5.0"
+    const val constraintLayout = "2.1.3"
 
     const val koin = "3.1.5"
     const val room = "2.4.2"
@@ -20,6 +21,7 @@ object Libraries {
     const val appCompat = "androidx.appcompat:appcompat:${Versions.appCompat}"
     const val coreKtx = "androidx.core:core-ktx:${Versions.coreKtx}"
     const val androidMaterial = "com.google.android.material:material:${Versions.androidMaterial}"
+    const val constraintLayout = "androidx.constraintlayout:constraintlayout:${Versions.constraintLayout}"
 
     const val koin = "io.insert-koin:koin-core:${Versions.koin}"
     const val koinAndroid = "io.insert-koin:koin-android:${Versions.koin}"
