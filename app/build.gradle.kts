@@ -37,6 +37,7 @@ dependencies {
     implementation(Libraries.coreKtx)
     implementation(Libraries.appCompat)
     implementation(Libraries.androidMaterial)
+    implementation(Libraries.constraintLayout)
 
     androidTestImplementation(Libraries.androidEspressoCore)
 }
