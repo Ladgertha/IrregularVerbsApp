@@ -29,11 +29,15 @@ android {
     kotlinOptions {
         jvmTarget = AppMetaData.jvmTarget
     }
+    buildFeatures {
+        viewBinding = true
+    }
 }
 
 dependencies {
     implementation(Libraries.kotlin)
     implementation(project(Modules.di))
+
     implementation(Libraries.coreKtx)
     implementation(Libraries.appCompat)
     implementation(Libraries.androidMaterial)
