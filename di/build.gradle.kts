@@ -33,4 +33,9 @@ dependencies {
     implementation(Libraries.kotlin)
     implementation(Libraries.koin)
     implementation(Libraries.koinAndroid)
+
+    implementation(project(Modules.database_api))
+    implementation(project(Modules.database_impl))
+    implementation(project(Modules.feature_study_api))
+    implementation(project(Modules.feature_study_impl))
 }
