@@ -3,7 +3,6 @@ package ru.ladgertha.database_impl.contract
 import ru.ladgertha.database_impl.entity.IrregularVerbEntity
 import ru.ladgertha.database_impl.dao.BaseDao
 
-
 interface IrregularVerbContract {
 
     interface DAO : BaseDao<IrregularVerbEntity> {

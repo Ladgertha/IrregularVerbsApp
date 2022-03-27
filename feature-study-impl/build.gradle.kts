@@ -26,11 +26,17 @@ android {
     kotlinOptions {
         jvmTarget = AppMetaData.jvmTarget
     }
+    buildFeatures {
+        viewBinding = true
+    }
 }
 
 dependencies {
     implementation(Libraries.kotlin)
     implementation(Libraries.appCompat)
+    implementation(Libraries.constraintLayout)
+    implementation(Libraries.googleMaterial)
+
     testImplementation(Libraries.jUnit)
     androidTestImplementation(Libraries.androidTestRunner)
     androidTestImplementation(Libraries.androidEspressoCore)

@@ -1,11 +1,11 @@
-package ru.ladgertha.irregularverbs.ui
+package ru.ladgertha.feature_study_impl
 
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
-import ru.ladgertha.irregularverbs.databinding.FragmentIrregularVerbsBinding
+import ru.ladgertha.feature_study_impl.databinding.FragmentIrregularVerbsBinding
 
 class IrregularVerbsFragment : Fragment() {
     private var _binding: FragmentIrregularVerbsBinding? = null
