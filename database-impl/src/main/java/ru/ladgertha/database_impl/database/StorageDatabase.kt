@@ -4,7 +4,7 @@ import android.content.Context
 import androidx.room.Database
 import androidx.room.Room
 import androidx.room.RoomDatabase
-import ru.ladgertha.database_impl.contract.IrregularVerbContract
+import ru.ladgertha.database_impl.dao.IrregularVerbDao
 import ru.ladgertha.database_impl.entity.IrregularVerbEntity
 
 const val VERSION = 1
@@ -18,7 +18,7 @@ const val VERSION = 1
 )
 abstract class StorageDatabase : RoomDatabase(), IStorageDatabase {
 
-    abstract override fun irregularVerbDao(): IrregularVerbContract.DAO
+    abstract override fun irregularVerbDao(): IrregularVerbDao
 
     companion object {
         private const val DATABASE_NAME = "irregular_verbs"

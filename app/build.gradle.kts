@@ -29,9 +29,6 @@ android {
     kotlinOptions {
         jvmTarget = AppMetaData.jvmTarget
     }
-    buildFeatures {
-        viewBinding = true
-    }
 }
 
 dependencies {

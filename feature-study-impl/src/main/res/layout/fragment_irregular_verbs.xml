@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.appcompat.widget.AppCompatCheckBox
+        android:id="@+id/rareVerbsCheckBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/base_margin_start"
+        android:layout_marginTop="@dimen/base_between_margin"
+        android:buttonTint="@color/primary_color"
+        android:hint="@string/irregular_verbs_f_rare_verbs_checkbox"
+        android:textSize="@dimen/irregular_verbs_f_rare_verbs_check_box_text_size"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/hintTitle"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/base_margin_start"
+        android:layout_marginEnd="@dimen/base_between_margin"
+        android:layout_marginBottom="@dimen/base_between_margin"
+        android:text="@string/irregular_verbs_f_title_hint_text"
+        android:textSize="@dimen/irregular_verbs_f_hint_title_text_size"
+        app:layout_constraintBottom_toTopOf="@id/pastSimpleInputLayout"
+        app:layout_constraintEnd_toStartOf="@+id/irregularVerbBaseForm"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/irregularVerbBaseForm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="@dimen/base_margin_end"
+        android:layout_marginBottom="@dimen/base_between_margin"
+        android:padding="@dimen/irregular_verbs_f_irregular_verb_base_form_padding"
+        android:textSize="@dimen/irregular_verbs_f_irregular_verb_base_form_text_size"
+        app:layout_constraintBottom_toTopOf="@id/pastSimpleInputLayout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/hintTitle"
+        tools:text="Understand" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/pastSimpleInputLayout"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/base_margin_start"
+        android:layout_marginEnd="@dimen/base_margin_end"
+        android:layout_marginBottom="@dimen/base_between_margin"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/irregular_verbs_f_past_simple_hint_text" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/pastParticipleInputLayout"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/base_margin_start"
+        android:layout_marginTop="@dimen/base_between_margin"
+        android:layout_marginEnd="@dimen/base_margin_end"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/pastSimpleInputLayout">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/irregular_verbs_f_past_participle_hint_text" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/base_margin_start"
+        android:layout_marginTop="@dimen/base_between_margin"
+        android:layout_marginEnd="@dimen/base_margin_end"
+        android:background="@android:color/holo_orange_dark"
+        android:text="@string/irregular_verbs_f_check_button_text"
+        android:textColor="@color/white"
+        app:layout_constraintTop_toBottomOf="@id/pastParticipleInputLayout" />
+</androidx.constraintlayout.widget.ConstraintLayout>
