@@ -79,6 +79,7 @@
     </com.google.android.material.textfield.TextInputLayout>
 
     <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/checkButton"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginStart="@dimen/base_margin_start"
@@ -88,4 +89,16 @@
         android:text="@string/irregular_verbs_f_check_button_text"
         android:textColor="@color/white"
         app:layout_constraintTop_toBottomOf="@id/pastParticipleInputLayout" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/nextButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/base_margin_start"
+        android:layout_marginTop="@dimen/base_between_margin"
+        android:layout_marginEnd="@dimen/base_margin_end"
+        android:background="@android:color/holo_orange_dark"
+        android:text="@string/irregular_verbs_f_next_button_text"
+        android:textColor="@color/white"
+        app:layout_constraintTop_toBottomOf="@id/checkButton" />
 </androidx.constraintlayout.widget.ConstraintLayout>
