@@ -9,6 +9,8 @@ object Versions {
     const val koin = "3.1.5"
     const val room = "2.4.2"
 
+    const val lifecycle = "2.2.0"
+
     const val stetho = "1.5.1"
 
     const val jUnit = "4.+"
@@ -27,6 +29,8 @@ object Libraries {
 
     const val koin = "io.insert-koin:koin-core:${Versions.koin}"
     const val koinAndroid = "io.insert-koin:koin-android:${Versions.koin}"
+
+    const val lifecycleViewModel = "androidx.lifecycle:lifecycle-viewmodel-ktx:${Versions.lifecycle}"
 
     // Room
     const val roomCommon = "androidx.room:room-common:${Versions.room}"

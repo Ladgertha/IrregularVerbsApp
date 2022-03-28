@@ -33,9 +33,15 @@ android {
 
 dependencies {
     implementation(Libraries.kotlin)
+    implementation(project(Modules.feature_study_api))
+
     implementation(Libraries.appCompat)
     implementation(Libraries.constraintLayout)
     implementation(Libraries.googleMaterial)
+    implementation(Libraries.koin)
+    implementation(Libraries.koinAndroid)
+
+    implementation(Libraries.lifecycleViewModel)
 
     testImplementation(Libraries.jUnit)
     androidTestImplementation(Libraries.androidTestRunner)
