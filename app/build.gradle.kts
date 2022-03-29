@@ -40,5 +40,7 @@ dependencies {
     implementation(Libraries.androidMaterial)
     implementation(Libraries.constraintLayout)
 
+    debugImplementation(Libraries.stetho)
+
     androidTestImplementation(Libraries.androidEspressoCore)
 }
