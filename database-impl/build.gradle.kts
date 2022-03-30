@@ -31,6 +31,9 @@ android {
 
 dependencies {
     implementation(Libraries.kotlin)
+    implementation(project(Modules.database_api))
+    implementation(project(Modules.di))
+
     implementation(Libraries.appCompat)
     implementation(Libraries.roomCommon)
     implementation(Libraries.roomRuntime)
