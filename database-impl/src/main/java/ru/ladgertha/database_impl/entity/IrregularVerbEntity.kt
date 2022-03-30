@@ -6,7 +6,6 @@ import androidx.room.PrimaryKey
 import androidx.room.TypeConverters
 import ru.ladgertha.database_impl.contract.IrregularVerbContract.DAO.Companion.KEY_BASE_FORM
 import ru.ladgertha.database_impl.contract.IrregularVerbContract.DAO.Companion.KEY_DONE_DATE
-import ru.ladgertha.database_impl.contract.IrregularVerbContract.DAO.Companion.KEY_IRREGULAR_VERB_KEY
 import ru.ladgertha.database_impl.contract.IrregularVerbContract.DAO.Companion.KEY_IS_DONE
 import ru.ladgertha.database_impl.contract.IrregularVerbContract.DAO.Companion.KEY_IS_POPULAR
 import ru.ladgertha.database_impl.contract.IrregularVerbContract.DAO.Companion.KEY_LAST_CHECKED_DATE
@@ -19,10 +18,7 @@ import java.util.*
 @Entity(tableName = TABLE_NAME_IRREGULAR_VERBS)
 data class IrregularVerbEntity(
 
-    @PrimaryKey(autoGenerate = true)
-    @ColumnInfo(name = KEY_IRREGULAR_VERB_KEY)
-    val id: Long,
-
+    @PrimaryKey
     @ColumnInfo(name = KEY_BASE_FORM, index = true)
     val baseForm: String,
 
@@ -40,11 +36,11 @@ data class IrregularVerbEntity(
 
     @ColumnInfo(name = KEY_DONE_DATE)
     @field:TypeConverters(DateConverter::class)
-    val doneDate: Date,
+    val doneDate: Date?,
 
     @ColumnInfo(name = KEY_LAST_CHECKED_DATE)
     @field:TypeConverters(DateConverter::class)
-    val lastCheckedDate: Date
+    val lastCheckedDate: Date?
 
     // TODO Подумать, что еще нужно
 )
