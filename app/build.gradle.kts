@@ -34,11 +34,14 @@ android {
 dependencies {
     implementation(Libraries.kotlin)
     implementation(project(Modules.di))
+    implementation(project(Modules.feature_splash_api))
 
     implementation(Libraries.coreKtx)
     implementation(Libraries.appCompat)
     implementation(Libraries.androidMaterial)
     implementation(Libraries.constraintLayout)
+    implementation(Libraries.koin)
+    implementation(Libraries.koinAndroid)
 
     debugImplementation(Libraries.stetho)
 

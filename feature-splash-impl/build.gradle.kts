@@ -1,7 +1,6 @@
 plugins {
     id(Plugins.ANDROID_LIBRARY)
     id(Plugins.KOTLIN_ANDROID)
-    id(Plugins.KOTLIN_KAPT)
 }
 
 android {
@@ -27,17 +26,13 @@ android {
     kotlinOptions {
         jvmTarget = AppMetaData.jvmTarget
     }
+    buildFeatures {
+        viewBinding = true
+    }
 }
 
 dependencies {
     implementation(Libraries.kotlin)
-    implementation(Libraries.koin)
-    implementation(Libraries.koinAndroid)
 
-    implementation(project(Modules.database_api))
-    implementation(project(Modules.database_impl))
-    implementation(project(Modules.feature_study_api))
-    implementation(project(Modules.feature_study_impl))
-    implementation(project(Modules.feature_splash_api))
-    implementation(project(Modules.feature_splash_impl))
+    implementation(Libraries.appCompat)
 }
