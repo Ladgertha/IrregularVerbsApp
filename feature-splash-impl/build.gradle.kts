@@ -33,6 +33,14 @@ android {
 
 dependencies {
     implementation(Libraries.kotlin)
+    implementation(project(Modules.feature_splash_api))
 
     implementation(Libraries.appCompat)
+    implementation(Libraries.constraintLayout)
+    implementation(Libraries.googleMaterial)
+    implementation(Libraries.koin)
+    implementation(Libraries.koinAndroid)
+
+    implementation(Libraries.lifecycleViewModel)
+
 }
