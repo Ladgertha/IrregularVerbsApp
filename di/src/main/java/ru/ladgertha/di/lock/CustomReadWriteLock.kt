@@ -2,6 +2,7 @@ package ru.ladgertha.di.lock
 
 import java.util.concurrent.locks.Lock
 
+// TODO Move to another module
 interface CustomReadWriteLock {
     fun readLock(): Lock
 
