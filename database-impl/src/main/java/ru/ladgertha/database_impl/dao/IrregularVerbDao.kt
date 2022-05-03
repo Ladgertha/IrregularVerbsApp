@@ -10,4 +10,7 @@ abstract class IrregularVerbDao : IrregularVerbContract.DAO {
 
     @Query("SELECT * FROM ${IrregularVerbContract.DAO.TABLE_NAME_IRREGULAR_VERBS}")
     abstract override fun getIrregularVerbs(): List<IrregularVerbEntity>?
+
+    @Query("SELECT * FROM ${IrregularVerbContract.DAO.TABLE_NAME_IRREGULAR_VERBS} LIMIT 1")
+    abstract override fun getFirstIrregularVerb(): IrregularVerbEntity?
 }

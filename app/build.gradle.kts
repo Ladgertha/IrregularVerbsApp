@@ -34,7 +34,7 @@ android {
 dependencies {
     implementation(Libraries.kotlin)
     implementation(project(Modules.di))
-    implementation(project(Modules.feature_splash_api))
+    implementation(project(Modules.feature_study_api))
 
     implementation(Libraries.coreKtx)
     implementation(Libraries.appCompat)

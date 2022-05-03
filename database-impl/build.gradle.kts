@@ -32,12 +32,15 @@ android {
 dependencies {
     implementation(Libraries.kotlin)
     implementation(project(Modules.database_api))
-    implementation(project(Modules.di))
 
     implementation(Libraries.appCompat)
     implementation(Libraries.roomCommon)
     implementation(Libraries.roomRuntime)
     kapt(Libraries.roomCompiler)
+
+    implementation(Libraries.coroutinesCore)
+    implementation(Libraries.koin)
+    implementation(Libraries.koinAndroid)
 
     debugImplementation(Libraries.stetho)
 
