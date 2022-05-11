@@ -3,6 +3,7 @@ package ru.ladgertha.feature_study_impl.di
 import androidx.appcompat.app.AppCompatActivity
 import org.koin.androidx.viewmodel.dsl.viewModel
 import org.koin.dsl.module
+import ru.ladgertha.database_api.usecase.GetNextVerbUseCase
 import ru.ladgertha.database_api.usecase.InsertIrregularVerbsUseCase
 import ru.ladgertha.database_api.usecase.IsDatabaseEmptyUseCase
 import ru.ladgertha.feature_study_api.IrregularVerbsStarter
@@ -14,7 +15,8 @@ val irregularVerbsModule = module {
     viewModel {
         IrregularVerbsViewModel(
             isDatabaseEmptyUseCase = get() as IsDatabaseEmptyUseCase,
-            insertIrregularVerbsUseCase = get() as InsertIrregularVerbsUseCase
+            insertIrregularVerbsUseCase = get() as InsertIrregularVerbsUseCase,
+            getNextVerbUseCase = get() as GetNextVerbUseCase
         )
     }
 

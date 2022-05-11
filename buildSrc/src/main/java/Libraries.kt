@@ -8,6 +8,7 @@ object Versions {
 
     const val koin = "3.1.5"
     const val room = "2.4.2"
+    const val datastorePreferences = "1.0.0"
     const val coroutines = "1.5.1"
 
     const val lifecycle = "2.2.0"
@@ -25,13 +26,15 @@ object Libraries {
     const val appCompat = "androidx.appcompat:appcompat:${Versions.appCompat}"
     const val coreKtx = "androidx.core:core-ktx:${Versions.coreKtx}"
     const val androidMaterial = "com.google.android.material:material:${Versions.androidMaterial}"
-    const val constraintLayout = "androidx.constraintlayout:constraintlayout:${Versions.constraintLayout}"
+    const val constraintLayout =
+        "androidx.constraintlayout:constraintlayout:${Versions.constraintLayout}"
     const val googleMaterial = "com.google.android.material:material:${Versions.googleMaterial}"
 
     const val koin = "io.insert-koin:koin-core:${Versions.koin}"
     const val koinAndroid = "io.insert-koin:koin-android:${Versions.koin}"
 
-    const val lifecycleViewModel = "androidx.lifecycle:lifecycle-viewmodel-ktx:${Versions.lifecycle}"
+    const val lifecycleViewModel =
+        "androidx.lifecycle:lifecycle-viewmodel-ktx:${Versions.lifecycle}"
 
     const val coroutinesCore =
         "org.jetbrains.kotlinx:kotlinx-coroutines-core:${Versions.coroutines}"
@@ -42,6 +45,9 @@ object Libraries {
     const val roomCommon = "androidx.room:room-common:${Versions.room}"
     const val roomRuntime = "androidx.room:room-runtime:${Versions.room}"
     const val roomCompiler = "androidx.room:room-compiler:${Versions.room}"
+
+    const val datastorePreferences =
+        "androidx.datastore:datastore-preferences:${Versions.datastorePreferences}"
 
     const val stetho = "com.facebook.stetho:stetho:${Versions.stetho}"
 
