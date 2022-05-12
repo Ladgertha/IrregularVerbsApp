@@ -4,12 +4,14 @@ import org.koin.android.ext.koin.androidApplication
 import org.koin.dsl.module
 import ru.ladgertha.database_api.IrregularVerbsDataStore
 import ru.ladgertha.database_api.IrregularVerbsRepository
+import ru.ladgertha.database_api.usecase.GetNextVerbUseCase
 import ru.ladgertha.database_api.usecase.InsertIrregularVerbsUseCase
 import ru.ladgertha.database_api.usecase.IsDatabaseEmptyUseCase
 import ru.ladgertha.database_impl.converter.IrregularVerbsFromJsonConverter
 import ru.ladgertha.database_impl.database.IStorageDatabase
 import ru.ladgertha.database_impl.database.StorageDatabase
 import ru.ladgertha.database_impl.datastore.IrregularVerbsDataStoreImpl
+import ru.ladgertha.database_impl.interactor.GetNextVerbInteractor
 import ru.ladgertha.database_impl.interactor.InsertIrregularVerbsInteractor
 import ru.ladgertha.database_impl.interactor.IsDatabaseEmptyInteractor
 import ru.ladgertha.database_impl.repository.IrregularVerbsRepositoryImpl
@@ -27,6 +29,10 @@ val databaseModule = module {
         IsDatabaseEmptyInteractor(
             irregularVerbsRepository = get() as IrregularVerbsRepository
         )
+    }
+
+    factory<GetNextVerbUseCase> {
+        GetNextVerbInteractor()
     }
 
     single<IrregularVerbsRepository> {

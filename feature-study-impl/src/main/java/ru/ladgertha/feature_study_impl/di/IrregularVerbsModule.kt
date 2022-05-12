@@ -6,6 +6,7 @@ import org.koin.dsl.module
 import ru.ladgertha.database_api.usecase.GetNextVerbUseCase
 import ru.ladgertha.database_api.usecase.InsertIrregularVerbsUseCase
 import ru.ladgertha.database_api.usecase.IsDatabaseEmptyUseCase
+import ru.ladgertha.datastore_api.usecase.SaveShowRareVerbsSettingsUseCase
 import ru.ladgertha.feature_study_api.IrregularVerbsStarter
 import ru.ladgertha.feature_study_impl.IrregularVerbsViewModel
 import ru.ladgertha.feature_study_impl.starter.IrregularVerbsStarterImpl
@@ -16,7 +17,8 @@ val irregularVerbsModule = module {
         IrregularVerbsViewModel(
             isDatabaseEmptyUseCase = get() as IsDatabaseEmptyUseCase,
             insertIrregularVerbsUseCase = get() as InsertIrregularVerbsUseCase,
-            getNextVerbUseCase = get() as GetNextVerbUseCase
+            getNextVerbUseCase = get() as GetNextVerbUseCase,
+            saveShowRareVerbsSettingsUseCase = get() as SaveShowRareVerbsSettingsUseCase
         )
     }
 
