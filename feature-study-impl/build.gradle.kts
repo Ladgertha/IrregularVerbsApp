@@ -35,6 +35,7 @@ dependencies {
     implementation(Libraries.kotlin)
     implementation(project(Modules.feature_study_api))
     implementation(project(Modules.database_api))
+    implementation(project(Modules.datastore_api))
 
     implementation(Libraries.appCompat)
     implementation(Libraries.constraintLayout)

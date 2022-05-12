@@ -34,6 +34,9 @@ class IrregularVerbsFragment : Fragment() {
         binding.checkButton.setOnClickListener {
             // irregularVerbsViewModel.checkWord()
         }
+        binding.rareVerbsCheckBox.setOnCheckedChangeListener { buttonView, isChecked ->
+            irregularVerbsViewModel.updateShowRareVerbs(isChecked)
+        }
         observeViewModel()
         irregularVerbsViewModel.nextWord()
     }

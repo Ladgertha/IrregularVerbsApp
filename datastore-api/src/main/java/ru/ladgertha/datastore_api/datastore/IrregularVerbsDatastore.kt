@@ -1,4 +1,4 @@
-package ru.ladgertha.datastore_api
+package ru.ladgertha.datastore_api.datastore
 
 import kotlinx.coroutines.flow.Flow
 
