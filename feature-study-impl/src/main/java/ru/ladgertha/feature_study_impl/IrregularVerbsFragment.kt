@@ -7,6 +7,9 @@ import android.view.View
 import android.view.ViewGroup
 import android.view.ViewTreeObserver
 import androidx.fragment.app.Fragment
+import androidx.lifecycle.lifecycleScope
+import kotlinx.coroutines.flow.filterNotNull
+import kotlinx.coroutines.flow.onEach
 import org.koin.androidx.viewmodel.ext.android.viewModel
 import ru.ladgertha.feature_study_impl.databinding.FragmentIrregularVerbsBinding
 
@@ -38,7 +41,7 @@ class IrregularVerbsFragment : Fragment() {
             irregularVerbsViewModel.updateShowRareVerbs(isChecked)
         }
         observeViewModel()
-        irregularVerbsViewModel.nextWord()
+      //  irregularVerbsViewModel.nextWord()
     }
 
     // TODO Implement splash screen
@@ -70,7 +73,30 @@ class IrregularVerbsFragment : Fragment() {
     }
 
     private fun observeViewModel() {
+        observeNextWord()
+        observeRareVerbSettings()
+    }
 
+    private fun observeNextWord() {
+        irregularVerbsViewModel
+            .getNextVerbObservable()
+            .filterNotNull()
+            .onEach {
+                binding.irregularVerbBaseForm.text = it.baseForm
+            }
+            .launchWhenStarted(lifecycleScope)
+    }
+
+    private fun observeRareVerbSettings() {
+        irregularVerbsViewModel
+            .getRareVerbsSettingsObservable()
+            .filterNotNull()
+            .onEach {
+                // TODo Заменить на нормальную логику
+                binding.rareVerbsCheckBox.isChecked = it
+                irregularVerbsViewModel.nextWord(it)
+            }
+            .launchWhenStarted(lifecycleScope)
     }
 
     override fun onDestroyView() {

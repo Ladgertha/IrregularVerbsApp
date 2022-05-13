@@ -1,8 +1,8 @@
-package ru.ladgertha.database_api
+package ru.ladgertha.database_api.entity
 
 import java.util.*
 
-data class IrregularVerb(
+data class IrregularVerbItem(
     val baseForm: String,
     val pastSimple: String,
     val pastParticiple: String,

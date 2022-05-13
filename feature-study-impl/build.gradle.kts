@@ -44,6 +44,7 @@ dependencies {
     implementation(Libraries.koinAndroid)
 
     implementation(Libraries.lifecycleViewModel)
+    implementation(Libraries.lifecycleRuntime)
 
     testImplementation(Libraries.jUnit)
     androidTestImplementation(Libraries.androidTestRunner)
