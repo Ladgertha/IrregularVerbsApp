@@ -12,6 +12,7 @@ object Versions {
     const val coroutines = "1.5.1"
 
     const val lifecycle = "2.2.0"
+    const val lifecycleRuntime = "2.4.0"
 
     const val stetho = "1.5.1"
 
@@ -35,6 +36,8 @@ object Libraries {
 
     const val lifecycleViewModel =
         "androidx.lifecycle:lifecycle-viewmodel-ktx:${Versions.lifecycle}"
+    const val lifecycleRuntime =
+        "androidx.lifecycle:lifecycle-runtime-ktx:${Versions.lifecycleRuntime}"
 
     const val coroutinesCore =
         "org.jetbrains.kotlinx:kotlinx-coroutines-core:${Versions.coroutines}"

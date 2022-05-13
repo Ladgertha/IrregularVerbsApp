@@ -13,4 +13,8 @@ abstract class IrregularVerbDao : IrregularVerbContract.DAO {
 
     @Query("SELECT * FROM ${IrregularVerbContract.DAO.TABLE_NAME_IRREGULAR_VERBS} LIMIT 1")
     abstract override fun getFirstIrregularVerb(): IrregularVerbEntity?
+
+    @Query("SELECT * FROM ${IrregularVerbContract.DAO.TABLE_NAME_IRREGULAR_VERBS} " +
+            "WHERE ${IrregularVerbContract.DAO.KEY_IS_POPULAR} = :rareVerb LIMIT 1")
+    abstract override fun getIrregularVerb(rareVerb: Boolean): IrregularVerbEntity?
 }

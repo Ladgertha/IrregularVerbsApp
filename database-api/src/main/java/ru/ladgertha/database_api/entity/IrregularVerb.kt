@@ -1,4 +1,4 @@
-package ru.ladgertha.database_impl.entity
+package ru.ladgertha.database_api.entity
 
 data class IrregularVerb(
     val baseForm: String,

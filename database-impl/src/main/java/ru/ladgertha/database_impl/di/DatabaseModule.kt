@@ -32,7 +32,9 @@ val databaseModule = module {
     }
 
     factory<GetNextVerbUseCase> {
-        GetNextVerbInteractor()
+        GetNextVerbInteractor(
+            repository = get() as IrregularVerbsRepository
+        )
     }
 
     single<IrregularVerbsRepository> {

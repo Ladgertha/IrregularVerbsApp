@@ -3,7 +3,7 @@ package ru.ladgertha.database_impl.converter
 import android.content.Context
 import org.json.JSONArray
 import org.json.JSONException
-import ru.ladgertha.database_api.IrregularVerb
+import ru.ladgertha.database_api.entity.IrregularVerbItem
 import ru.ladgertha.database_impl.R
 import java.io.BufferedReader
 import java.io.IOException
@@ -14,8 +14,8 @@ class IrregularVerbsFromJsonConverter(
     private val context: Context
 ) {
 
-    fun getIrregularVerbs(): List<IrregularVerb> {
-        val irregularVerbs = mutableListOf<IrregularVerb>()
+    fun getIrregularVerbs(): List<IrregularVerbItem> {
+        val irregularVerbs = mutableListOf<IrregularVerbItem>()
 
         val irregularVerbsJSONArray = loadJSONArray(context)
         try {
@@ -23,7 +23,7 @@ class IrregularVerbsFromJsonConverter(
                 for (verb in 0 until irregularVerbsJSONArray.length()) {
                     val irregularVerbObject = irregularVerbsJSONArray.getJSONObject(verb)
                     irregularVerbs.add(
-                        IrregularVerb(
+                        IrregularVerbItem(
                             baseForm = irregularVerbObject.getString("Base form"),
                             pastSimple = irregularVerbObject.getString("Past simple"),
                             pastParticiple = irregularVerbObject.getString("Past participle"),
