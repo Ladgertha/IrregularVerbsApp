@@ -20,4 +20,4 @@ jobs:
         cache: gradle
 
     - name: Build with Gradle
-      run: ./gradlew build --stacktrace
+      run: gradle build --stacktrace
