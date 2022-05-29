@@ -4,9 +4,7 @@ import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.StateFlow
-import kotlinx.coroutines.flow.last
 import kotlinx.coroutines.launch
-import ru.ladgertha.database_api.entity.IrregularVerb
 import ru.ladgertha.database_api.usecase.GetNextVerbUseCase
 import ru.ladgertha.database_api.usecase.InsertIrregularVerbsUseCase
 import ru.ladgertha.database_api.usecase.IsDatabaseEmptyUseCase
@@ -18,23 +16,28 @@ class IrregularVerbsViewModel(
     private val insertIrregularVerbsUseCase: InsertIrregularVerbsUseCase,
     private val getNextVerbUseCase: GetNextVerbUseCase,
     private val saveShowRareVerbsSettingsUseCase: SaveShowRareVerbsSettingsUseCase,
-    private val getShowRareVerbsSettingsUseCase: GetShowRareVerbsSettingsUseCase
+    getShowRareVerbsSettingsUseCase: GetShowRareVerbsSettingsUseCase
 ) : ViewModel() {
-    // TODO Add progress bar
-    private val currentWordFlow = MutableStateFlow<IrregularVerb?>(null)
     private val showRareVerbsFlow = getShowRareVerbsSettingsUseCase.showRareVerbsSettings()
+    private val screenStateFlow = MutableStateFlow<ScreenState>(ScreenState.Loading)
+    private val databaseIsUpdatedFlow = MutableStateFlow(false)
 
     init {
         viewModelScope.launch {
+            screenStateFlow.value = ScreenState.Loading
             if (isDatabaseEmptyUseCase()) {
                 insertIrregularVerbsUseCase.insert()
             }
+            databaseIsUpdatedFlow.value = true
         }
     }
 
     fun nextWord(rareVerb: Boolean) {
         viewModelScope.launch {
-            currentWordFlow.value = getNextVerbUseCase.getNextVerb(rareVerb)
+            val nextVerb = getNextVerbUseCase.getNextVerb(rareVerb)
+            nextVerb?.baseForm?.let {
+                screenStateFlow.value = ScreenState.Content(it)
+            }
         }
     }
 
@@ -45,5 +48,11 @@ class IrregularVerbsViewModel(
     }
 
     internal fun getRareVerbsSettingsObservable() = showRareVerbsFlow
-    internal fun getNextVerbObservable(): StateFlow<IrregularVerb?> = currentWordFlow
+    internal fun getScreenStateObservable(): StateFlow<ScreenState> = screenStateFlow
+    internal fun getDatabaseIsUpdatedObservable(): StateFlow<Boolean> = databaseIsUpdatedFlow
+
+    internal sealed class ScreenState {
+        object Loading : ScreenState()
+        data class Content(val baseForm: String) : ScreenState()
+    }
 }

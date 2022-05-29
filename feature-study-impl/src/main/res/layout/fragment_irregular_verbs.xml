@@ -5,6 +5,13 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
+    <androidx.constraintlayout.widget.Group
+        android:id="@+id/contentGroup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        app:constraint_referenced_ids="rareVerbsCheckBox, hintTitle, irregularVerbBaseForm, hintTitle, irregularVerbBaseForm, pastParticipleInputLayout, pastParticipleInputLayout, checkButton, nextButton, pastSimpleInputLayout" />
+
     <androidx.appcompat.widget.AppCompatCheckBox
         android:id="@+id/rareVerbsCheckBox"
         android:layout_width="wrap_content"
@@ -101,4 +108,14 @@
         android:text="@string/irregular_verbs_f_next_button_text"
         android:textColor="@color/white"
         app:layout_constraintTop_toBottomOf="@id/checkButton" />
+
+    <com.google.android.material.progressindicator.CircularProgressIndicator
+        android:id="@+id/progressBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>

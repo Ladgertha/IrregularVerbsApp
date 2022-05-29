@@ -41,7 +41,7 @@ class IrregularVerbsFragment : Fragment() {
             irregularVerbsViewModel.updateShowRareVerbs(isChecked)
         }
         observeViewModel()
-      //  irregularVerbsViewModel.nextWord()
+        //  irregularVerbsViewModel.nextWord()
     }
 
     // TODO Implement splash screen
@@ -73,18 +73,9 @@ class IrregularVerbsFragment : Fragment() {
     }
 
     private fun observeViewModel() {
-        observeNextWord()
         observeRareVerbSettings()
-    }
-
-    private fun observeNextWord() {
-        irregularVerbsViewModel
-            .getNextVerbObservable()
-            .filterNotNull()
-            .onEach {
-                binding.irregularVerbBaseForm.text = it.baseForm
-            }
-            .launchWhenStarted(lifecycleScope)
+        observeScreenState()
+        observeDatabaseState()
     }
 
     private fun observeRareVerbSettings() {
@@ -92,9 +83,36 @@ class IrregularVerbsFragment : Fragment() {
             .getRareVerbsSettingsObservable()
             .filterNotNull()
             .onEach {
-                // TODo Заменить на нормальную логику
                 binding.rareVerbsCheckBox.isChecked = it
-                irregularVerbsViewModel.nextWord(it)
+            }
+            .launchWhenStarted(lifecycleScope)
+    }
+
+    private fun observeDatabaseState() {
+        irregularVerbsViewModel
+            .getDatabaseIsUpdatedObservable()
+            .filterNotNull()
+            .onEach {
+                irregularVerbsViewModel.nextWord(binding.rareVerbsCheckBox.isChecked)
+            }
+            .launchWhenStarted(lifecycleScope)
+    }
+
+    private fun observeScreenState() {
+        irregularVerbsViewModel
+            .getScreenStateObservable()
+            .onEach {
+                when (it) {
+                    IrregularVerbsViewModel.ScreenState.Loading -> {
+                        binding.progressBar.visibility = View.VISIBLE
+                        binding.contentGroup.visibility = View.GONE
+                    }
+                    is IrregularVerbsViewModel.ScreenState.Content -> {
+                        binding.contentGroup.visibility = View.VISIBLE
+                        binding.progressBar.visibility = View.GONE
+                        binding.irregularVerbBaseForm.text = it.baseForm
+                    }
+                }
             }
             .launchWhenStarted(lifecycleScope)
     }

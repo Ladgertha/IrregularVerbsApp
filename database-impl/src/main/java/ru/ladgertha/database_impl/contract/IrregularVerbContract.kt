@@ -10,6 +10,8 @@ interface IrregularVerbContract {
 
         fun getFirstIrregularVerb(): IrregularVerbEntity?
 
+        fun getIrregularVerb(rareVerb: Boolean, lastCheckedTime: Long): IrregularVerbEntity?
+
         fun getIrregularVerb(rareVerb: Boolean): IrregularVerbEntity?
 
         companion object {
