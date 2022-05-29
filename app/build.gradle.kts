@@ -43,7 +43,7 @@ dependencies {
     implementation(Libraries.koin)
     implementation(Libraries.koinAndroid)
 
-    debugImplementation(Libraries.stetho)
+    implementation(Libraries.stetho)
 
     androidTestImplementation(Libraries.androidEspressoCore)
 }
