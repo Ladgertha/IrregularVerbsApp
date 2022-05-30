@@ -18,6 +18,7 @@ class IrregularVerbsApplication : Application() {
     }
 
     private fun initStetho() {
+        // TODO Move to debug build
         Stetho.initializeWithDefaults(this)
     }
 }

@@ -6,7 +6,7 @@ import ru.ladgertha.database_api.entity.IrregularVerbItem
 interface IrregularVerbsRepository {
 
     // fun saveVerbs()
-    fun insert(irregularVerbItem: List<IrregularVerbItem>): Boolean
+    fun insert(irregularVerbItems: List<IrregularVerbItem>): Boolean
 
     fun isDatabaseEmpty(): Boolean
 

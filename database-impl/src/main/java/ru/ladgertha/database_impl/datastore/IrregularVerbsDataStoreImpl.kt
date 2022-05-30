@@ -5,6 +5,7 @@ import ru.ladgertha.database_api.entity.IrregularVerb
 import ru.ladgertha.database_api.entity.IrregularVerbItem
 import ru.ladgertha.database_impl.contract.IrregularVerbContract
 import ru.ladgertha.database_impl.entity.IrregularVerbEntity
+import java.util.*
 
 class IrregularVerbsDataStoreImpl(
     private val storageDao: IrregularVerbContract.DAO
@@ -33,11 +34,19 @@ class IrregularVerbsDataStoreImpl(
     }
 
     override fun getNextVerb(rareWord: Boolean): IrregularVerb? {
-        val nextIrregularVerb = storageDao.getIrregularVerb(rareWord) ?: return null
+        val nextIrregularVerb =
+            storageDao.getIrregularVerb(rareWord, maximumCheckedTime)
+                ?: storageDao.getIrregularVerb(rareWord)
+                ?: return null
         return IrregularVerb(
             baseForm = nextIrregularVerb.baseForm,
             pastParticiple = nextIrregularVerb.pastParticiple,
             pastSimple = nextIrregularVerb.pastSimple
         )
+    }
+
+    companion object {
+        private const val TWENTY_FOUR_HOURS = 86400000L
+        private val maximumCheckedTime = Date().time - TWENTY_FOUR_HOURS
     }
 }
