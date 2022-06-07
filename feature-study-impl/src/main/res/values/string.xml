@@ -1,9 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="irregular_verbs_f_title_hint_text">Введите вторую и третью форму для глагола:</string>
-    <string name="irregular_verbs_f_check_button_text">ПРОВЕРИТЬ</string>
-    <string name="irregular_verbs_f_next_button_text">СЛЕДУЮЩЕЕ СЛОВО</string>
+    <string name="irregular_verbs_f_title_hint_text">Text second and third form for the verb:</string>
+    <string name="irregular_verbs_f_check_button_text">CHECK</string>
+    <string name="irregular_verbs_f_next_button_text">NEXT VERB</string>
     <string name="irregular_verbs_f_past_simple_hint_text">Past simple</string>
     <string name="irregular_verbs_f_past_participle_hint_text">Past participle</string>
-    <string name="irregular_verbs_f_rare_verbs_checkbox">Включить редкие глаголы</string>
+    <string name="irregular_verbs_f_rare_verbs_checkbox">Include rare verbs</string>
+
+    <string name="irregular_verbs_f_past_simple_edit_text_error">Wrong</string>
+    <string name="irregular_verbs_f_past_participle_edit_text_error">Wrong</string>
 </resources>
