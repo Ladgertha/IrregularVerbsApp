@@ -2,7 +2,7 @@ name: Post merge
 
 on:
   push:
-    branches: [ "develop" ]
+    branches: [ develop ]
 
 jobs:
   allChecks:
@@ -11,7 +11,7 @@ jobs:
     steps:
     - uses: actions/checkout@v3
     - name: Run all checks
-      run: ./gradlew check --stacktrace
+      run: gradle check --stacktrace
     
     - uses: actions/upload-artifact@v3
       with:
@@ -33,14 +33,14 @@ jobs:
          uses: reactivecircus/android-emulator-runner@v2
          with:
              api-level: 29
-             script: ./gradlew connectedChech --stacktrace
+             script: gradle connectedChech --stacktrace
   deploy:
        runs-on: ubuntu-latest
        needs: [allChecks, instrumentationTests]
        steps:
           - uses: actions/checkout@v3
           - name: Build Snapshot
-            run: ./gradlew assemble --stacktrace
+            run: gradle assemble --stacktrace
           - uses: actions/upload-artifact@v3
             with:
               name: app-release-SNAPSHOT.apk
