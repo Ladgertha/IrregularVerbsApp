@@ -63,6 +63,7 @@
         app:layout_constraintTop_toTopOf="parent">
 
         <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/pastSimpleEditText"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="@string/irregular_verbs_f_past_simple_hint_text" />
@@ -80,6 +81,7 @@
         app:layout_constraintTop_toBottomOf="@id/pastSimpleInputLayout">
 
         <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/pastParticipleEditText"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="@string/irregular_verbs_f_past_participle_hint_text" />

@@ -35,7 +35,10 @@ class IrregularVerbsFragment : Fragment() {
         }
 
         binding.checkButton.setOnClickListener {
-            // irregularVerbsViewModel.checkWord()
+            irregularVerbsViewModel.checkWord(
+                pastSimple = binding.pastSimpleEditText.text.toString(),
+                pastParticiple = binding.pastParticipleEditText.text.toString()
+            )
         }
         binding.rareVerbsCheckBox.setOnCheckedChangeListener { buttonView, isChecked ->
             irregularVerbsViewModel.updateShowRareVerbs(isChecked)
@@ -76,6 +79,7 @@ class IrregularVerbsFragment : Fragment() {
         observeRareVerbSettings()
         observeScreenState()
         observeDatabaseState()
+        observeEditTextErrorsState()
     }
 
     private fun observeRareVerbSettings() {
@@ -111,6 +115,24 @@ class IrregularVerbsFragment : Fragment() {
                         binding.contentGroup.visibility = View.VISIBLE
                         binding.progressBar.visibility = View.GONE
                         binding.irregularVerbBaseForm.text = it.baseForm
+                    }
+                }
+            }
+            .launchWhenStarted(lifecycleScope)
+    }
+
+    private fun observeEditTextErrorsState() {
+        irregularVerbsViewModel
+            .getEditTextErrorsStateObservable()
+            .onEach {
+                when (it) {
+                    IrregularVerbsViewModel.EditTextErrorsState.PastParticipleError -> {
+                        binding.pastParticipleInputLayout.error =
+                            getString(R.string.irregular_verbs_f_past_participle_edit_text_error)
+                    }
+                    IrregularVerbsViewModel.EditTextErrorsState.PastSimpleError -> {
+                        binding.pastSimpleInputLayout.error =
+                            getString(R.string.irregular_verbs_f_past_simple_edit_text_error)
                     }
                 }
             }
