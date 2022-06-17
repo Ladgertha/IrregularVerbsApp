@@ -12,6 +12,7 @@ import ru.ladgertha.database_api.entity.IrregularVerb
 import ru.ladgertha.database_api.usecase.GetNextVerbUseCase
 import ru.ladgertha.database_api.usecase.InsertIrregularVerbsUseCase
 import ru.ladgertha.database_api.usecase.IsDatabaseEmptyUseCase
+import ru.ladgertha.database_api.usecase.UpdateVerbUseCase
 import ru.ladgertha.datastore_api.usecase.GetShowRareVerbsSettingsUseCase
 import ru.ladgertha.datastore_api.usecase.SaveShowRareVerbsSettingsUseCase
 
@@ -20,7 +21,8 @@ class IrregularVerbsViewModel(
     private val insertIrregularVerbsUseCase: InsertIrregularVerbsUseCase,
     private val getNextVerbUseCase: GetNextVerbUseCase,
     private val saveShowRareVerbsSettingsUseCase: SaveShowRareVerbsSettingsUseCase,
-    getShowRareVerbsSettingsUseCase: GetShowRareVerbsSettingsUseCase
+    getShowRareVerbsSettingsUseCase: GetShowRareVerbsSettingsUseCase,
+    private val updateVerbUseCase: UpdateVerbUseCase
 ) : ViewModel() {
     private val showRareVerbsFlow = getShowRareVerbsSettingsUseCase.showRareVerbsSettings()
     private val screenStateFlow = MutableStateFlow<ScreenState>(ScreenState.Loading)
@@ -38,8 +40,10 @@ class IrregularVerbsViewModel(
         }
     }
 
+    // TODO remove rareVerb
     fun nextWord(rareVerb: Boolean) {
         viewModelScope.launch {
+            currentVerbFlow.value?.let { updateVerbUseCase.updateLastCheckedDate(it) }
             val nextVerb = getNextVerbUseCase.getNextVerb(rareVerb)
             currentVerbFlow.value = nextVerb
             nextVerb?.baseForm?.let {

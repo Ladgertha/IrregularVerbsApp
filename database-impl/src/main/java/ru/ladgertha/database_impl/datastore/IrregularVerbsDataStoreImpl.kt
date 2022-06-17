@@ -45,6 +45,10 @@ class IrregularVerbsDataStoreImpl(
         )
     }
 
+    override fun updateLastCheckedDate(verb: IrregularVerb) {
+        storageDao.updateLastCheckedDateByBaseForm(verb.baseForm, Date().time)
+    }
+
     companion object {
         private const val TWENTY_FOUR_HOURS = 86400000L
         private val maximumCheckedTime = Date().time - TWENTY_FOUR_HOURS
