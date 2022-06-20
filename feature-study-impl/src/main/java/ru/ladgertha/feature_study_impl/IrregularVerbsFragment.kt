@@ -8,15 +8,19 @@ import android.view.ViewGroup
 import android.view.ViewTreeObserver
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.lifecycleScope
+import com.google.android.material.bottomsheet.BottomSheetDialog
 import kotlinx.coroutines.flow.filterNotNull
 import kotlinx.coroutines.flow.onEach
 import org.koin.androidx.viewmodel.ext.android.viewModel
+import ru.ladgertha.feature_study_impl.databinding.BottomSheetLayoutBinding
 import ru.ladgertha.feature_study_impl.databinding.FragmentIrregularVerbsBinding
 
 class IrregularVerbsFragment : Fragment() {
     private var _binding: FragmentIrregularVerbsBinding? = null
     private val binding get() = _binding!!
     private val irregularVerbsViewModel: IrregularVerbsViewModel by viewModel()
+    private var _dialogBinding: BottomSheetLayoutBinding? = null
+    private val dialogBinding get() = _dialogBinding!!
 
     override fun onCreateView(
         inflater: LayoutInflater,
@@ -80,6 +84,7 @@ class IrregularVerbsFragment : Fragment() {
         observeScreenState()
         observeDatabaseState()
         observeEditTextErrorsState()
+        observeDialogs()
     }
 
     private fun observeRareVerbSettings() {
@@ -137,6 +142,27 @@ class IrregularVerbsFragment : Fragment() {
                 }
             }
             .launchWhenStarted(lifecycleScope)
+    }
+
+    private fun observeDialogs() {
+        irregularVerbsViewModel
+            .getDialogsObservable()
+            .onEach {
+                when (it) {
+                    IrregularVerbsViewModel.Dialogs.ShowAnswer -> showDialog(getString(R.string.irregular_verbs_f_show_answer_dialog))
+                }
+            }
+            .launchWhenStarted(lifecycleScope)
+    }
+
+    private fun showDialog(message: String) {
+        if (_dialogBinding == null) {
+            _dialogBinding = BottomSheetLayoutBinding.inflate(layoutInflater)
+        }
+        val dialog = BottomSheetDialog(requireContext(), R.style.AppBottomSheetDialogTheme)
+        dialog.setContentView(dialogBinding.root)
+        dialogBinding.message.text = message
+        dialog.show()
     }
 
     override fun onDestroyView() {

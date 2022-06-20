@@ -29,6 +29,7 @@ class IrregularVerbsViewModel(
     private val databaseIsUpdatedFlow = MutableStateFlow(false)
     private val currentVerbFlow = MutableStateFlow<IrregularVerb?>(null)
     private val editTextErrorsChannel = Channel<EditTextErrorsState>(1)
+    private val dialogChannel = Channel<Dialogs>(1)
 
     init {
         viewModelScope.launch {
@@ -72,6 +73,8 @@ class IrregularVerbsViewModel(
 
             if (pastParticipleIsRight && pastSimpleIsRight) {
 
+            } else {
+                dialogChannel.send(Dialogs.ShowAnswer)
             }
         }
     }
@@ -81,6 +84,7 @@ class IrregularVerbsViewModel(
     internal fun getDatabaseIsUpdatedObservable(): StateFlow<Boolean> = databaseIsUpdatedFlow
     internal fun getEditTextErrorsStateObservable(): Flow<EditTextErrorsState> =
         editTextErrorsChannel.receiveAsFlow()
+    internal fun getDialogsObservable(): Flow<Dialogs> = dialogChannel.receiveAsFlow()
 
     internal sealed class ScreenState {
         object Loading : ScreenState()
@@ -90,5 +94,9 @@ class IrregularVerbsViewModel(
     internal sealed class EditTextErrorsState {
         object PastSimpleError : EditTextErrorsState()
         object PastParticipleError : EditTextErrorsState()
+    }
+
+    internal sealed class Dialogs {
+        object ShowAnswer : Dialogs()
     }
 }
