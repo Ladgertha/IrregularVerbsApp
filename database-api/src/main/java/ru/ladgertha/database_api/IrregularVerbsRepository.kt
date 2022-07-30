@@ -11,4 +11,6 @@ interface IrregularVerbsRepository {
     fun isDatabaseEmpty(): Boolean
 
     fun getNextVerb(rareVerb: Boolean): IrregularVerb?
+
+    fun updateLastCheckedDate(verb: IrregularVerb)
 }

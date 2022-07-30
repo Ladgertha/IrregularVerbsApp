@@ -10,4 +10,6 @@ interface IrregularVerbsDataStore {
     fun isDatabaseEmpty(): Boolean
 
     fun getNextVerb(rareWord: Boolean): IrregularVerb?
+
+    fun updateLastCheckedDate(verb: IrregularVerb)
 }

@@ -12,6 +12,7 @@ import ru.ladgertha.database_api.entity.IrregularVerb
 import ru.ladgertha.database_api.usecase.GetNextVerbUseCase
 import ru.ladgertha.database_api.usecase.InsertIrregularVerbsUseCase
 import ru.ladgertha.database_api.usecase.IsDatabaseEmptyUseCase
+import ru.ladgertha.database_api.usecase.UpdateVerbUseCase
 import ru.ladgertha.datastore_api.usecase.GetShowRareVerbsSettingsUseCase
 import ru.ladgertha.datastore_api.usecase.SaveShowRareVerbsSettingsUseCase
 
@@ -20,13 +21,15 @@ class IrregularVerbsViewModel(
     private val insertIrregularVerbsUseCase: InsertIrregularVerbsUseCase,
     private val getNextVerbUseCase: GetNextVerbUseCase,
     private val saveShowRareVerbsSettingsUseCase: SaveShowRareVerbsSettingsUseCase,
-    getShowRareVerbsSettingsUseCase: GetShowRareVerbsSettingsUseCase
+    getShowRareVerbsSettingsUseCase: GetShowRareVerbsSettingsUseCase,
+    private val updateVerbUseCase: UpdateVerbUseCase
 ) : ViewModel() {
     private val showRareVerbsFlow = getShowRareVerbsSettingsUseCase.showRareVerbsSettings()
     private val screenStateFlow = MutableStateFlow<ScreenState>(ScreenState.Loading)
     private val databaseIsUpdatedFlow = MutableStateFlow(false)
     private val currentVerbFlow = MutableStateFlow<IrregularVerb?>(null)
     private val editTextErrorsChannel = Channel<EditTextErrorsState>(1)
+    private val dialogChannel = Channel<Dialogs>(1)
 
     init {
         viewModelScope.launch {
@@ -38,8 +41,10 @@ class IrregularVerbsViewModel(
         }
     }
 
+    // TODO remove rareVerb
     fun nextWord(rareVerb: Boolean) {
         viewModelScope.launch {
+            currentVerbFlow.value?.let { updateVerbUseCase.updateLastCheckedDate(it) }
             val nextVerb = getNextVerbUseCase.getNextVerb(rareVerb)
             currentVerbFlow.value = nextVerb
             nextVerb?.baseForm?.let {
@@ -68,6 +73,8 @@ class IrregularVerbsViewModel(
 
             if (pastParticipleIsRight && pastSimpleIsRight) {
 
+            } else {
+                dialogChannel.send(Dialogs.ShowAnswer)
             }
         }
     }
@@ -77,6 +84,7 @@ class IrregularVerbsViewModel(
     internal fun getDatabaseIsUpdatedObservable(): StateFlow<Boolean> = databaseIsUpdatedFlow
     internal fun getEditTextErrorsStateObservable(): Flow<EditTextErrorsState> =
         editTextErrorsChannel.receiveAsFlow()
+    internal fun getDialogsObservable(): Flow<Dialogs> = dialogChannel.receiveAsFlow()
 
     internal sealed class ScreenState {
         object Loading : ScreenState()
@@ -86,5 +94,9 @@ class IrregularVerbsViewModel(
     internal sealed class EditTextErrorsState {
         object PastSimpleError : EditTextErrorsState()
         object PastParticipleError : EditTextErrorsState()
+    }
+
+    internal sealed class Dialogs {
+        object ShowAnswer : Dialogs()
     }
 }
