@@ -1,7 +1,7 @@
 package ru.ladgertha.database_impl.contract
 
-import ru.ladgertha.database_impl.entity.IrregularVerbEntity
 import ru.ladgertha.database_impl.dao.BaseDao
+import ru.ladgertha.database_impl.entity.IrregularVerbEntity
 
 interface IrregularVerbContract {
 
@@ -13,6 +13,8 @@ interface IrregularVerbContract {
         fun getIrregularVerb(rareVerb: Boolean, lastCheckedTime: Long): IrregularVerbEntity?
 
         fun getIrregularVerb(rareVerb: Boolean): IrregularVerbEntity?
+
+        fun updateLastCheckedDateByBaseForm(baseForm: String, lastCheckedTime: Long)
 
         companion object {
             const val TABLE_NAME_IRREGULAR_VERBS = "IRREGULAR_VERBS"

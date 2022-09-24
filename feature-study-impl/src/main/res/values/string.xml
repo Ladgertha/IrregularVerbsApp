@@ -9,4 +9,5 @@
 
     <string name="irregular_verbs_f_past_simple_edit_text_error">Wrong</string>
     <string name="irregular_verbs_f_past_participle_edit_text_error">Wrong</string>
+    <string name="irregular_verbs_f_show_answer_dialog">Show answer</string>
 </resources>
