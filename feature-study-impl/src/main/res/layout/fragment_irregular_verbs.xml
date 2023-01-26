@@ -9,7 +9,7 @@
         android:id="@+id/contentGroup"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:visibility="gone"
+        android:visibility="visible"
         app:constraint_referenced_ids="rareVerbsCheckBox, hintTitle, irregularVerbBaseForm, hintTitle, irregularVerbBaseForm, pastParticipleInputLayout, pastParticipleInputLayout, checkButton, nextButton, pastSimpleInputLayout" />
 
     <androidx.appcompat.widget.AppCompatCheckBox
@@ -57,10 +57,9 @@
         android:layout_marginStart="@dimen/base_margin_start"
         android:layout_marginEnd="@dimen/base_margin_end"
         android:layout_marginBottom="@dimen/base_between_margin"
-        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent">
+        app:layout_constraintTop_toBottomOf="@+id/hintTitle">
 
         <com.google.android.material.textfield.TextInputEditText
             android:id="@+id/pastSimpleEditText"
@@ -76,6 +75,7 @@
         android:layout_marginStart="@dimen/base_margin_start"
         android:layout_marginTop="@dimen/base_between_margin"
         android:layout_marginEnd="@dimen/base_margin_end"
+        app:layout_constraintBottom_toTopOf="@id/checkButton"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/pastSimpleInputLayout">
@@ -97,7 +97,8 @@
         android:background="@android:color/holo_orange_dark"
         android:text="@string/irregular_verbs_f_check_button_text"
         android:textColor="@color/white"
-        app:layout_constraintTop_toBottomOf="@id/pastParticipleInputLayout" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/nextButton"
@@ -110,6 +111,19 @@
         android:text="@string/irregular_verbs_f_next_button_text"
         android:textColor="@color/white"
         app:layout_constraintTop_toBottomOf="@id/checkButton" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/showAnswerButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/base_margin_start"
+        android:layout_marginTop="@dimen/base_between_margin"
+        android:layout_marginEnd="@dimen/base_margin_end"
+        android:layout_marginBottom="@dimen/base_margin_bottom"
+        android:background="@android:color/holo_orange_dark"
+        android:text="@string/irregular_verbs_f_show_answer_text"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent" />
 
     <com.google.android.material.progressindicator.CircularProgressIndicator
         android:id="@+id/progressBar"

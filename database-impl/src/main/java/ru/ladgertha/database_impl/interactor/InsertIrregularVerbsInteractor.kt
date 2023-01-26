@@ -15,6 +15,9 @@ class InsertIrregularVerbsInteractor(
         return withContext(Dispatchers.IO) {
             try {
                 val irregularVerbs = irregularVerbsFromJsonConverter.getIrregularVerbs()
+                    .sortedBy {
+                        it.isPopular
+                    }
                 irregularVerbsRepository.insert(irregularVerbs)
                 true
             } catch (exception: Exception) {

@@ -3,6 +3,7 @@
     <string name="irregular_verbs_f_title_hint_text">Text second and third form for the verb:</string>
     <string name="irregular_verbs_f_check_button_text">CHECK</string>
     <string name="irregular_verbs_f_next_button_text">NEXT VERB</string>
+    <string name="irregular_verbs_f_show_answer_text">SHOW ANSWER</string>
     <string name="irregular_verbs_f_past_simple_hint_text">Past simple</string>
     <string name="irregular_verbs_f_past_participle_hint_text">Past participle</string>
     <string name="irregular_verbs_f_rare_verbs_checkbox">Include rare verbs</string>
@@ -10,4 +11,6 @@
     <string name="irregular_verbs_f_past_simple_edit_text_error">Wrong</string>
     <string name="irregular_verbs_f_past_participle_edit_text_error">Wrong</string>
     <string name="irregular_verbs_f_show_answer_dialog">Show answer</string>
+    <string name="irregular_verbs_f_show_answer_dialog_title">The answer</string>
+    <string name="irregular_verbs_f_show_answer_dialog_text">Past Simple: %1s\nPast participle: %2s</string>
 </resources>

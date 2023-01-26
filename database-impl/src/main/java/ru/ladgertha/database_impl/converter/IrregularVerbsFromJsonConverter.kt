@@ -43,8 +43,8 @@ class IrregularVerbsFromJsonConverter(
 
     private fun loadJSONArray(context: Context): JSONArray? {
         val builder = StringBuilder()
-        val `in`: InputStream = context.resources.openRawResource(R.raw.verbs_20220313)
-        val reader = BufferedReader(InputStreamReader(`in`))
+        val inputStream: InputStream = context.resources.openRawResource(R.raw.verbs_20220313)
+        val reader = BufferedReader(InputStreamReader(inputStream))
         var line: String?
         try {
             while (reader.readLine().also { line = it } != null) {

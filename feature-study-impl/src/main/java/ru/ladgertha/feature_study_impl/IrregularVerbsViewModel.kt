@@ -53,6 +53,14 @@ class IrregularVerbsViewModel(
         }
     }
 
+    fun showAnswer() {
+        viewModelScope.launch {
+            currentVerbFlow.value?.let {
+                dialogChannel.send(Dialogs.ShowAnswer(it))
+            }
+        }
+    }
+
     fun updateShowRareVerbs(showRareVerbs: Boolean) {
         viewModelScope.launch {
             saveShowRareVerbsSettingsUseCase(showRareVerbs)
@@ -73,8 +81,6 @@ class IrregularVerbsViewModel(
 
             if (pastParticipleIsRight && pastSimpleIsRight) {
 
-            } else {
-                dialogChannel.send(Dialogs.ShowAnswer)
             }
         }
     }
@@ -84,6 +90,7 @@ class IrregularVerbsViewModel(
     internal fun getDatabaseIsUpdatedObservable(): StateFlow<Boolean> = databaseIsUpdatedFlow
     internal fun getEditTextErrorsStateObservable(): Flow<EditTextErrorsState> =
         editTextErrorsChannel.receiveAsFlow()
+
     internal fun getDialogsObservable(): Flow<Dialogs> = dialogChannel.receiveAsFlow()
 
     internal sealed class ScreenState {
@@ -97,6 +104,6 @@ class IrregularVerbsViewModel(
     }
 
     internal sealed class Dialogs {
-        object ShowAnswer : Dialogs()
+        data class ShowAnswer(val verb: IrregularVerb) : Dialogs()
     }
 }

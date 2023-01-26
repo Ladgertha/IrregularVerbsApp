@@ -43,6 +43,7 @@ dependencies {
     implementation(Libraries.koin)
     implementation(Libraries.koinAndroid)
 
+    implementation(Libraries.stetho)
     implementation(Libraries.lifecycleViewModel)
     implementation(Libraries.lifecycleRuntime)
 

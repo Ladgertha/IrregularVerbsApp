@@ -1,5 +1,6 @@
 package ru.ladgertha.feature_study_impl
 
+import android.app.AlertDialog
 import android.os.Bundle
 import android.os.CountDownTimer
 import android.view.LayoutInflater
@@ -12,15 +13,13 @@ import com.google.android.material.bottomsheet.BottomSheetDialog
 import kotlinx.coroutines.flow.filterNotNull
 import kotlinx.coroutines.flow.onEach
 import org.koin.androidx.viewmodel.ext.android.viewModel
-import ru.ladgertha.feature_study_impl.databinding.BottomSheetLayoutBinding
 import ru.ladgertha.feature_study_impl.databinding.FragmentIrregularVerbsBinding
+
 
 class IrregularVerbsFragment : Fragment() {
     private var _binding: FragmentIrregularVerbsBinding? = null
     private val binding get() = _binding!!
     private val irregularVerbsViewModel: IrregularVerbsViewModel by viewModel()
-    private var _dialogBinding: BottomSheetLayoutBinding? = null
-    private val dialogBinding get() = _dialogBinding!!
 
     override fun onCreateView(
         inflater: LayoutInflater,
@@ -46,6 +45,9 @@ class IrregularVerbsFragment : Fragment() {
         }
         binding.rareVerbsCheckBox.setOnCheckedChangeListener { buttonView, isChecked ->
             irregularVerbsViewModel.updateShowRareVerbs(isChecked)
+        }
+        binding.showAnswerButton.setOnClickListener {
+            irregularVerbsViewModel.showAnswer()
         }
         observeViewModel()
         //  irregularVerbsViewModel.nextWord()
@@ -149,20 +151,25 @@ class IrregularVerbsFragment : Fragment() {
             .getDialogsObservable()
             .onEach {
                 when (it) {
-                    IrregularVerbsViewModel.Dialogs.ShowAnswer -> showDialog(getString(R.string.irregular_verbs_f_show_answer_dialog))
+                    is IrregularVerbsViewModel.Dialogs.ShowAnswer -> {
+                        AlertDialog.Builder(context)
+                            .setTitle(getString(R.string.irregular_verbs_f_show_answer_dialog_title))
+                            .setMessage(
+                                getString(
+                                    R.string.irregular_verbs_f_show_answer_dialog_text,
+                                    it.verb.pastSimple,
+                                    it.verb.pastParticiple
+                                )
+                            )
+                            .setPositiveButton(
+                                android.R.string.yes
+                            ) { dialog, which ->
+                            }
+                            .show()
+                    }
                 }
             }
             .launchWhenStarted(lifecycleScope)
-    }
-
-    private fun showDialog(message: String) {
-        if (_dialogBinding == null) {
-            _dialogBinding = BottomSheetLayoutBinding.inflate(layoutInflater)
-        }
-        val dialog = BottomSheetDialog(requireContext(), R.style.AppBottomSheetDialogTheme)
-        dialog.setContentView(dialogBinding.root)
-        dialogBinding.message.text = message
-        dialog.show()
     }
 
     override fun onDestroyView() {
