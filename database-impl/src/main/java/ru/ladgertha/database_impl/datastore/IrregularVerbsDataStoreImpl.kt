@@ -45,6 +45,22 @@ class IrregularVerbsDataStoreImpl(
         )
     }
 
+    override fun getIrregularVerbs(rareWord: Boolean): List<IrregularVerb>? {
+        var irregularVerbs =
+            storageDao.getIrregularVerbs(rareWord, maximumCheckedTime)
+        if (irregularVerbs.isNullOrEmpty()) {
+            irregularVerbs = storageDao.getIrregularVerbs(rareWord)
+        }
+        if (irregularVerbs.isNullOrEmpty()) return null
+        return irregularVerbs.map {
+            IrregularVerb(
+                baseForm = it.baseForm,
+                pastParticiple = it.pastParticiple,
+                pastSimple = it.pastSimple
+            )
+        }
+    }
+
     override fun updateLastCheckedDate(verb: IrregularVerb) {
         storageDao.updateLastCheckedDateByBaseForm(verb.baseForm, Date().time)
     }

@@ -12,9 +12,15 @@ interface IrregularVerbContract {
 
         fun getIrregularVerb(rareVerb: Boolean, lastCheckedTime: Long): IrregularVerbEntity?
 
+        fun getIrregularVerbs(rareVerb: Boolean, lastCheckedTime: Long): List<IrregularVerbEntity>?
+
         fun getIrregularVerb(rareVerb: Boolean): IrregularVerbEntity?
 
+        fun getIrregularVerbs(rareVerb: Boolean): List<IrregularVerbEntity>?
+
         fun updateLastCheckedDateByBaseForm(baseForm: String, lastCheckedTime: Long)
+
+        fun getIrregularVerbsCount(): Int
 
         companion object {
             const val TABLE_NAME_IRREGULAR_VERBS = "IRREGULAR_VERBS"

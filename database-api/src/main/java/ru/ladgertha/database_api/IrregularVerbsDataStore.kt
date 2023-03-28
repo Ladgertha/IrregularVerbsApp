@@ -11,5 +11,7 @@ interface IrregularVerbsDataStore {
 
     fun getNextVerb(rareWord: Boolean): IrregularVerb?
 
+    fun getIrregularVerbs(rareWord: Boolean): List<IrregularVerb>?
+
     fun updateLastCheckedDate(verb: IrregularVerb)
 }

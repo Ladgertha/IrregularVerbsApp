@@ -11,6 +11,7 @@ import ru.ladgertha.database_api.usecase.UpdateVerbUseCase
 import ru.ladgertha.database_impl.converter.IrregularVerbsFromJsonConverter
 import ru.ladgertha.database_impl.database.IStorageDatabase
 import ru.ladgertha.database_impl.database.StorageDatabase
+import ru.ladgertha.database_impl.datastore.IrregularVerbsCacheDatastore
 import ru.ladgertha.database_impl.datastore.IrregularVerbsDataStoreImpl
 import ru.ladgertha.database_impl.interactor.GetNextVerbInteractor
 import ru.ladgertha.database_impl.interactor.InsertIrregularVerbsInteractor
@@ -47,8 +48,13 @@ val databaseModule = module {
 
     single<IrregularVerbsRepository> {
         IrregularVerbsRepositoryImpl(
+            irregularVerbsCacheDatastore = get() as IrregularVerbsCacheDatastore,
             irregularVerbsDataStore = get() as IrregularVerbsDataStore
         )
+    }
+
+    single<IrregularVerbsCacheDatastore> {
+        IrregularVerbsCacheDatastore()
     }
 
     single<IrregularVerbsDataStore> {
